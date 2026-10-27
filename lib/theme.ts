@@ -1,0 +1,1 @@
+export const themeBootstrap=`(()=>{try{const t=localStorage.getItem('markdowntools:theme')||'system';document.documentElement.dataset.theme=t==='dark'||(t!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light'}catch{document.documentElement.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}})()`;

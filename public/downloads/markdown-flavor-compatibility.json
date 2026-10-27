@@ -1,0 +1,917 @@
+{
+  "version": "2026-07-18",
+  "generated": "2026-07-18",
+  "pageUrl": "https://www.markdowntools.io/cheat-sheet",
+  "states": [
+    "yes",
+    "partial",
+    "no"
+  ],
+  "platforms": [
+    {
+      "id": "commonmark",
+      "name": "CommonMark",
+      "shortName": "CommonMark",
+      "sourceUrl": "https://spec.commonmark.org/0.31.2/",
+      "verifiedDate": "2026-07-18"
+    },
+    {
+      "id": "github",
+      "name": "GitHub Flavored Markdown",
+      "shortName": "GitHub",
+      "sourceUrl": "https://github.github.com/gfm/",
+      "verifiedDate": "2026-07-18",
+      "cheatSheetUrl": "https://www.markdowntools.io/github-markdown-cheat-sheet"
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab Flavored Markdown",
+      "shortName": "GitLab",
+      "sourceUrl": "https://docs.gitlab.com/user/markdown/",
+      "verifiedDate": "2026-07-18",
+      "cheatSheetUrl": "https://www.markdowntools.io/gitlab-markdown"
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "shortName": "Obsidian",
+      "sourceUrl": "https://help.obsidian.md/syntax",
+      "verifiedDate": "2026-07-18",
+      "cheatSheetUrl": "https://www.markdowntools.io/obsidian-cheat-sheet"
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "shortName": "Discord",
+      "sourceUrl": "https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline",
+      "verifiedDate": "2026-07-18",
+      "cheatSheetUrl": "https://www.markdowntools.io/discord-markdown"
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "shortName": "Slack",
+      "sourceUrl": "https://slack.com/help/articles/202288908-Format-your-messages",
+      "verifiedDate": "2026-07-18",
+      "cheatSheetUrl": "https://www.markdowntools.io/slack-markdown"
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "shortName": "Reddit",
+      "sourceUrl": "https://support.reddithelp.com/hc/en-us/articles/360043033952-Formatting-Guide",
+      "verifiedDate": "2026-07-18",
+      "cheatSheetUrl": "https://www.markdowntools.io/reddit-markdown"
+    },
+    {
+      "id": "jupyterRmd",
+      "name": "Jupyter / R Markdown",
+      "shortName": "Jupyter / Rmd",
+      "sourceUrl": "https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html",
+      "verifiedDate": "2026-07-18",
+      "cheatSheetUrl": "https://www.markdowntools.io/jupyter-markdown-cheat-sheet"
+    }
+  ],
+  "features": [
+    {
+      "id": "headings",
+      "feature": "Headings",
+      "syntax": "# Heading 1",
+      "sourceUrl": "https://spec.commonmark.org/0.31.2/#atx-headings",
+      "support": {
+        "commonmark": {
+          "state": "yes",
+          "note": "ATX (#) and Setext styles; levels 1–6."
+        },
+        "github": {
+          "state": "yes",
+          "note": "Levels 1–6 with auto-generated anchors."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "Levels 1–6, Setext alternative; auto anchors."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "Levels 1–6; appear in the outline pane."
+        },
+        "discord": {
+          "state": "partial",
+          "note": "H1–H3 (# to ###) plus -# subtext only."
+        },
+        "slack": {
+          "state": "no",
+          "note": "Not in message formatting; canvases only."
+        },
+        "reddit": {
+          "state": "yes",
+          "note": "Six levels; Setext underline style also works."
+        },
+        "jupyterRmd": {
+          "state": "yes",
+          "note": "Supported in Jupyter cells and R Markdown."
+        }
+      }
+    },
+    {
+      "id": "bold",
+      "feature": "Bold",
+      "syntax": "**bold text**",
+      "sourceUrl": "https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis",
+      "support": {
+        "commonmark": {
+          "state": "yes",
+          "note": "** or __ delimiters."
+        },
+        "github": {
+          "state": "yes",
+          "note": "** or __."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "** or __."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "** or __."
+        },
+        "discord": {
+          "state": "yes",
+          "note": "**text** only; __ is underline here."
+        },
+        "slack": {
+          "state": "yes",
+          "note": "*text* markup or the toolbar button."
+        },
+        "reddit": {
+          "state": "yes",
+          "note": "** or __."
+        },
+        "jupyterRmd": {
+          "state": "yes",
+          "note": "** or __ in both."
+        }
+      }
+    },
+    {
+      "id": "italic",
+      "feature": "Italic",
+      "syntax": "*italic text*",
+      "sourceUrl": "https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis",
+      "support": {
+        "commonmark": {
+          "state": "yes",
+          "note": "* or _ delimiters."
+        },
+        "github": {
+          "state": "yes",
+          "note": "* or _."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "* or _; intra-word underscores ignored."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "* or _."
+        },
+        "discord": {
+          "state": "yes",
+          "note": "*text* or _text_."
+        },
+        "slack": {
+          "state": "yes",
+          "note": "_text_ markup or the toolbar button."
+        },
+        "reddit": {
+          "state": "yes",
+          "note": "* or _."
+        },
+        "jupyterRmd": {
+          "state": "yes",
+          "note": "* or _ in both."
+        }
+      }
+    },
+    {
+      "id": "strikethrough",
+      "feature": "Strikethrough",
+      "syntax": "~~struck text~~",
+      "sourceUrl": "https://github.github.com/gfm/#strikethrough-extension-",
+      "support": {
+        "commonmark": {
+          "state": "no",
+          "note": "Not in the spec."
+        },
+        "github": {
+          "state": "yes",
+          "note": "GFM extension; GitHub also accepts a single ~."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "GLFM: ~~double tildes~~."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "GFM-style ~~text~~."
+        },
+        "discord": {
+          "state": "yes",
+          "note": "~~text~~."
+        },
+        "slack": {
+          "state": "yes",
+          "note": "~text~ (single tilde) or the toolbar."
+        },
+        "reddit": {
+          "state": "yes",
+          "note": "~~double tildes~~."
+        },
+        "jupyterRmd": {
+          "state": "partial",
+          "note": "R Markdown (Pandoc strikeout): yes; not documented for Jupyter cells."
+        }
+      }
+    },
+    {
+      "id": "underline",
+      "feature": "Underline",
+      "syntax": "<u>text</u> (HTML)",
+      "sourceUrl": "https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax",
+      "support": {
+        "commonmark": {
+          "state": "no",
+          "note": "No syntax; raw <u>/<ins> HTML is the only option."
+        },
+        "github": {
+          "state": "partial",
+          "note": "No Markdown syntax; GitHub documents the <ins> tag."
+        },
+        "gitlab": {
+          "state": "no",
+          "note": "No documented underline syntax."
+        },
+        "obsidian": {
+          "state": "partial",
+          "note": "<u> HTML works; no Markdown syntax, and Markdown inside HTML is not processed."
+        },
+        "discord": {
+          "state": "yes",
+          "note": "__text__ (Discord extension)."
+        },
+        "slack": {
+          "state": "partial",
+          "note": "Toolbar only; no markup shortcut."
+        },
+        "reddit": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "jupyterRmd": {
+          "state": "partial",
+          "note": "No Markdown syntax; raw <u> passes through to HTML output."
+        }
+      }
+    },
+    {
+      "id": "tables",
+      "feature": "Tables",
+      "syntax": "| A | B |\n| --- | --- |",
+      "sourceUrl": "https://github.github.com/gfm/#tables-extension-",
+      "support": {
+        "commonmark": {
+          "state": "no",
+          "note": "Not in the spec."
+        },
+        "github": {
+          "state": "yes",
+          "note": "GFM tables extension with column alignment."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "GLFM tables; paste from spreadsheets works."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "Plus Live Preview table editing."
+        },
+        "discord": {
+          "state": "no",
+          "note": "No table syntax."
+        },
+        "slack": {
+          "state": "no",
+          "note": "No tables in messages."
+        },
+        "reddit": {
+          "state": "yes",
+          "note": "Pipe tables; parsing quirks differ between old and new Reddit."
+        },
+        "jupyterRmd": {
+          "state": "yes",
+          "note": "Jupyter renders GFM tables; R Markdown supports pipe tables."
+        }
+      }
+    },
+    {
+      "id": "task-lists",
+      "feature": "Task lists",
+      "syntax": "- [x] done\n- [ ] todo",
+      "sourceUrl": "https://github.github.com/gfm/#task-list-items-extension-",
+      "support": {
+        "commonmark": {
+          "state": "no",
+          "note": "Not in the spec."
+        },
+        "github": {
+          "state": "yes",
+          "note": "GFM task list extension."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "Adds an inapplicable [~] state."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "Any character inside the brackets marks a task complete."
+        },
+        "discord": {
+          "state": "no",
+          "note": "Renders as a plain list item."
+        },
+        "slack": {
+          "state": "no",
+          "note": "No Markdown syntax for tasks."
+        },
+        "reddit": {
+          "state": "no",
+          "note": "Renders as a plain list item."
+        },
+        "jupyterRmd": {
+          "state": "partial",
+          "note": "R Markdown (Pandoc task_lists): yes; not documented for Jupyter cells."
+        }
+      }
+    },
+    {
+      "id": "footnotes",
+      "feature": "Footnotes",
+      "syntax": "Text.[^1]\n\n[^1]: The note.",
+      "sourceUrl": "https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes",
+      "support": {
+        "commonmark": {
+          "state": "no",
+          "note": "Not in the spec."
+        },
+        "github": {
+          "state": "yes",
+          "note": "GitHub.com extension; not part of the GFM spec itself."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "GLFM footnotes."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "Plus inline ^[...] footnotes."
+        },
+        "discord": {
+          "state": "no",
+          "note": "Renders as literal [^1]."
+        },
+        "slack": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "reddit": {
+          "state": "no",
+          "note": "Renders as literal [^1]."
+        },
+        "jupyterRmd": {
+          "state": "partial",
+          "note": "R Markdown (Pandoc footnotes): yes; Jupyter cells do not render them."
+        }
+      }
+    },
+    {
+      "id": "math",
+      "feature": "Math (LaTeX)",
+      "syntax": "$x^2$",
+      "sourceUrl": "https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions",
+      "support": {
+        "commonmark": {
+          "state": "no",
+          "note": "Not in the spec."
+        },
+        "github": {
+          "state": "yes",
+          "note": "MathJax on github.com; $ inline and $$ blocks."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "KaTeX; $`...`$ inline and ```math blocks."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "MathJax; $ inline and $$ blocks."
+        },
+        "discord": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "slack": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "reddit": {
+          "state": "no",
+          "note": "No native rendering."
+        },
+        "jupyterRmd": {
+          "state": "yes",
+          "note": "MathJax in Jupyter cells; LaTeX math in R Markdown."
+        }
+      }
+    },
+    {
+      "id": "mermaid",
+      "feature": "Mermaid / diagrams",
+      "syntax": "```mermaid\ngraph TD\n  A --> B\n```",
+      "sourceUrl": "https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams",
+      "support": {
+        "commonmark": {
+          "state": "no",
+          "note": "Renders as a plain code block."
+        },
+        "github": {
+          "state": "yes",
+          "note": "Mermaid blocks render as diagrams on github.com."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "```mermaid; PlantUML and Kroki also available."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "Native Mermaid rendering in notes."
+        },
+        "discord": {
+          "state": "no",
+          "note": "Renders as a code block."
+        },
+        "slack": {
+          "state": "no",
+          "note": "Renders as a code block."
+        },
+        "reddit": {
+          "state": "no",
+          "note": "Renders as a code block."
+        },
+        "jupyterRmd": {
+          "state": "partial",
+          "note": "JupyterLab 4.1+ renders ```mermaid natively; R Markdown needs the DiagrammeR package."
+        }
+      }
+    },
+    {
+      "id": "raw-html",
+      "feature": "Raw HTML",
+      "syntax": "<div>text</div>",
+      "sourceUrl": "https://spec.commonmark.org/0.31.2/#raw-html",
+      "support": {
+        "commonmark": {
+          "state": "yes",
+          "note": "HTML blocks and inline HTML are part of the spec."
+        },
+        "github": {
+          "state": "partial",
+          "note": "Sanitized subset; scripts and some tags are stripped."
+        },
+        "gitlab": {
+          "state": "partial",
+          "note": "Sanitized subset (e.g. <details> and <br>)."
+        },
+        "obsidian": {
+          "state": "partial",
+          "note": "Renders HTML, but Markdown inside HTML is intentionally not processed."
+        },
+        "discord": {
+          "state": "no",
+          "note": "HTML renders as literal text."
+        },
+        "slack": {
+          "state": "no",
+          "note": "No HTML rendering."
+        },
+        "reddit": {
+          "state": "no",
+          "note": "Tags render as literal text; only HTML entities work."
+        },
+        "jupyterRmd": {
+          "state": "partial",
+          "note": "Jupyter renders raw HTML; R Markdown passes it to HTML output only."
+        }
+      }
+    },
+    {
+      "id": "spoilers",
+      "feature": "Spoilers",
+      "syntax": "||hidden text||",
+      "sourceUrl": "https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline",
+      "support": {
+        "commonmark": {
+          "state": "no",
+          "note": "Not in the spec."
+        },
+        "github": {
+          "state": "partial",
+          "note": "No spoiler syntax; <details> HTML gives collapsible sections."
+        },
+        "gitlab": {
+          "state": "partial",
+          "note": "No spoiler syntax; <details>/<summary> HTML."
+        },
+        "obsidian": {
+          "state": "no",
+          "note": "No spoiler syntax."
+        },
+        "discord": {
+          "state": "yes",
+          "note": "||text|| hides content until clicked."
+        },
+        "slack": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "reddit": {
+          "state": "yes",
+          "note": ">!text!< syntax — different delimiters from Discord."
+        },
+        "jupyterRmd": {
+          "state": "no",
+          "note": "Not supported."
+        }
+      }
+    },
+    {
+      "id": "timestamps",
+      "feature": "Dynamic timestamps",
+      "syntax": "<t:1752840000:R>",
+      "sourceUrl": "https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline",
+      "support": {
+        "commonmark": {
+          "state": "no",
+          "note": "Not in the spec."
+        },
+        "github": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "gitlab": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "obsidian": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "discord": {
+          "state": "yes",
+          "note": "<t:unix:format> renders in each viewer’s timezone; seven formats."
+        },
+        "slack": {
+          "state": "partial",
+          "note": "Via <!date^unix^text> in app/bot messages (Slack mrkdwn)."
+        },
+        "reddit": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "jupyterRmd": {
+          "state": "no",
+          "note": "Not supported."
+        }
+      }
+    },
+    {
+      "id": "callouts",
+      "feature": "Callouts / alerts",
+      "syntax": "> [!note]\n> Content",
+      "sourceUrl": "https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts",
+      "support": {
+        "commonmark": {
+          "state": "no",
+          "note": "Renders as a plain blockquote."
+        },
+        "github": {
+          "state": "yes",
+          "note": "Alerts: NOTE, TIP, IMPORTANT, WARNING, CAUTION."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "GLFM alerts (note, tip, warning, caution, important)."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "13 types with aliases, folding, and nesting."
+        },
+        "discord": {
+          "state": "no",
+          "note": "Renders as a plain blockquote."
+        },
+        "slack": {
+          "state": "no",
+          "note": "Renders as a plain quote."
+        },
+        "reddit": {
+          "state": "no",
+          "note": "Renders as a plain blockquote."
+        },
+        "jupyterRmd": {
+          "state": "no",
+          "note": "Quarto (R Markdown’s successor) adds callout blocks; classic R Markdown has none."
+        }
+      }
+    },
+    {
+      "id": "wikilinks",
+      "feature": "Wikilinks",
+      "syntax": "[[Page Name]]",
+      "sourceUrl": "https://help.obsidian.md/links",
+      "support": {
+        "commonmark": {
+          "state": "no",
+          "note": "Not in the spec."
+        },
+        "github": {
+          "state": "partial",
+          "note": "[[links]] resolve in GitHub wiki pages only."
+        },
+        "gitlab": {
+          "state": "partial",
+          "note": "[[Page]] works in wiki pages; regular files and comments do not resolve it."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "Vault-native; auto-updates when the target note is renamed."
+        },
+        "discord": {
+          "state": "no",
+          "note": "Renders as literal brackets."
+        },
+        "slack": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "reddit": {
+          "state": "no",
+          "note": "Renders as literal brackets."
+        },
+        "jupyterRmd": {
+          "state": "no",
+          "note": "Renders as literal brackets."
+        }
+      }
+    },
+    {
+      "id": "highlight",
+      "feature": "Highlight",
+      "syntax": "==highlighted text==",
+      "sourceUrl": "https://help.obsidian.md/syntax",
+      "support": {
+        "commonmark": {
+          "state": "no",
+          "note": "Not in the spec."
+        },
+        "github": {
+          "state": "no",
+          "note": "Renders as literal ==."
+        },
+        "gitlab": {
+          "state": "no",
+          "note": "Renders as literal ==."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "==text== marker-style highlight."
+        },
+        "discord": {
+          "state": "no",
+          "note": "Renders as literal ==."
+        },
+        "slack": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "reddit": {
+          "state": "no",
+          "note": "Renders as literal ==."
+        },
+        "jupyterRmd": {
+          "state": "no",
+          "note": "Pandoc’s ==mark== extension exists but is off by default."
+        }
+      }
+    },
+    {
+      "id": "comments",
+      "feature": "Comments (hidden text)",
+      "syntax": "%%hidden%%",
+      "sourceUrl": "https://help.obsidian.md/syntax#Comments",
+      "support": {
+        "commonmark": {
+          "state": "partial",
+          "note": "Via <!-- --> HTML comments; hidden but kept in the output source."
+        },
+        "github": {
+          "state": "yes",
+          "note": "GitHub documents hiding content with <!-- --> comments."
+        },
+        "gitlab": {
+          "state": "partial",
+          "note": "No dedicated syntax; <!-- --> HTML comments."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "%%comment%% hides text in Reading view and on publish."
+        },
+        "discord": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "slack": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "reddit": {
+          "state": "no",
+          "note": "Not supported."
+        },
+        "jupyterRmd": {
+          "state": "partial",
+          "note": "<!-- --> hidden in HTML output only."
+        }
+      }
+    },
+    {
+      "id": "code-blocks",
+      "feature": "Code blocks",
+      "syntax": "```js\ncode\n```",
+      "sourceUrl": "https://spec.commonmark.org/0.31.2/#fenced-code-blocks",
+      "support": {
+        "commonmark": {
+          "state": "yes",
+          "note": "Fenced and indented blocks."
+        },
+        "github": {
+          "state": "yes",
+          "note": "Fenced, with syntax highlighting."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "Fenced; 100+ highlight languages."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "Fenced, with syntax highlighting."
+        },
+        "discord": {
+          "state": "yes",
+          "note": "``` with optional language."
+        },
+        "slack": {
+          "state": "yes",
+          "note": "``` or the toolbar code block."
+        },
+        "reddit": {
+          "state": "partial",
+          "note": "Fenced blocks only on new Reddit; old Reddit supports indented blocks only."
+        },
+        "jupyterRmd": {
+          "state": "yes",
+          "note": "Fenced blocks; R Markdown chunks also execute code."
+        }
+      }
+    },
+    {
+      "id": "blockquotes",
+      "feature": "Blockquotes",
+      "syntax": "> quoted text",
+      "sourceUrl": "https://spec.commonmark.org/0.31.2/#block-quotes",
+      "support": {
+        "commonmark": {
+          "state": "yes",
+          "note": "> at the start of a line."
+        },
+        "github": {
+          "state": "yes",
+          "note": "> at the start of a line."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "> at the start of a line."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "> at the start of a line."
+        },
+        "discord": {
+          "state": "yes",
+          "note": "> for one line; >>> quotes the rest of the message."
+        },
+        "slack": {
+          "state": "yes",
+          "note": "> markup or the toolbar."
+        },
+        "reddit": {
+          "state": "yes",
+          "note": "> at the start of a line."
+        },
+        "jupyterRmd": {
+          "state": "yes",
+          "note": "> at the start of a line."
+        }
+      }
+    },
+    {
+      "id": "images",
+      "feature": "Images",
+      "syntax": "![alt text](image.jpg)",
+      "sourceUrl": "https://spec.commonmark.org/0.31.2/#images",
+      "support": {
+        "commonmark": {
+          "state": "yes",
+          "note": "![alt](url) with optional title."
+        },
+        "github": {
+          "state": "yes",
+          "note": "![alt](url); relative paths and uploads supported."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "![alt](url); uploads supported."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "Plus ![[embeds]] for vault files."
+        },
+        "discord": {
+          "state": "no",
+          "note": "Attachments/embeds only; no Markdown image syntax."
+        },
+        "slack": {
+          "state": "no",
+          "note": "File uploads only; no Markdown image syntax."
+        },
+        "reddit": {
+          "state": "partial",
+          "note": "No Markdown image syntax; the rich-text editor supports image uploads."
+        },
+        "jupyterRmd": {
+          "state": "yes",
+          "note": "Standard syntax; Jupyter also supports attachment: references."
+        }
+      }
+    },
+    {
+      "id": "links",
+      "feature": "Links",
+      "syntax": "[text](https://example.com)",
+      "sourceUrl": "https://spec.commonmark.org/0.31.2/#links",
+      "support": {
+        "commonmark": {
+          "state": "yes",
+          "note": "Inline, reference, and autolinks."
+        },
+        "github": {
+          "state": "yes",
+          "note": "Inline, reference, and autolinks."
+        },
+        "gitlab": {
+          "state": "yes",
+          "note": "Inline, reference, and autolinks."
+        },
+        "obsidian": {
+          "state": "yes",
+          "note": "Inline links; [[wikilinks]] are the default."
+        },
+        "discord": {
+          "state": "yes",
+          "note": "Masked links [text](url) in user messages."
+        },
+        "slack": {
+          "state": "partial",
+          "note": "Composer toolbar or paste-to-link; mrkdwn uses <url|text>."
+        },
+        "reddit": {
+          "state": "yes",
+          "note": "Inline, reference, and autolinks."
+        },
+        "jupyterRmd": {
+          "state": "yes",
+          "note": "Inline links in both."
+        }
+      }
+    }
+  ]
+}

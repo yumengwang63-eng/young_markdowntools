@@ -1,0 +1,5 @@
+import Link from 'next/link';
+import {platformNotes} from './platform-notes';
+import inventory from './v4-inventory.json';
+export function RelatedLinks({slugs}:{slugs:string[]}){return <div className="relatedcontent"><h3>Continue with</h3><ul>{slugs.map(slug=><li key={slug}><Link href={'/'+slug}>{inventory.rows.find(r=>r.slug===slug)?.name||slug.replace('syntax/','Syntax: ').replaceAll('-',' ')}</Link></li>)}</ul></div>}
+export default function PlatformNotes({slug}:{slug:string}){const note=platformNotes[slug];if(!note)return null;return <section className="platformnotes"><h2>Platform workflow</h2><p>{note.workflow}</p><h3>Platform-specific pitfalls</h3><p>{note.pitfall}</p><h3>A practical exercise</h3><p>{note.exercise}</p><h3>Official reference</h3><p><a href={note.source} target="_blank" rel="noreferrer">Read the platform documentation ↗</a></p><p className="contentcaption">Reference reviewed for this guide: 21 October 2026. The local preview is not the platform renderer.</p><RelatedLinks slugs={note.related}/></section>}

@@ -1,0 +1,28 @@
+:root{--surface:#fff;--surface-raised:#f7f7fa;--background:#fff;--foreground:#18181b;color-scheme:light}
+html[data-theme=dark]{--surface:#18181b;--surface-raised:#232327;--background:#09090b;--foreground:#f4f4f5;--ink:#f4f4f5;--muted:#a1a1aa;--line:#3f3f46;--wash:#232327;color-scheme:dark}
+body,button,input,select{font-family:var(--font-geist),Arial,sans-serif}
+pre,code,textarea,.guidecode{font-family:var(--font-geist-mono),monospace}
+.originaleditor>h1,.footercolumns h2,[class*="CheatSheet_sheet"]{font-family:var(--font-geist),Arial,sans-serif}
+.theme-control select{max-width:86px;border:1px solid var(--line);border-radius:7px;padding:7px;background:var(--surface);color:var(--foreground);font-size:12px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.siteheader{height:auto;min-height:64px;gap:18px;padding-block:10px}.siteheader nav{gap:14px}.siteheader>.quiet{white-space:nowrap;padding:7px}
+html[data-theme=dark] body{background:var(--background);color:var(--foreground)}
+html[data-theme=dark] :is(.siteheader,.siteheader details>div,.originalcard,.panel,.originaldemo,.originalpill,.replicafooter,.global-search,.skip-nav,.authform,.docrow,.card,.toolcard,.formattoolbar,.editorstatus,.panelbar,.panelbottom){background:var(--surface);color:var(--foreground);border-color:var(--line)}
+html[data-theme=dark] :is(input,textarea,select,button,.quiet,.secondary){background-color:var(--surface);color:var(--foreground);border-color:var(--line)}
+html[data-theme=dark] :is(.originalhero,.categorysection,.learnsection,.originaldemocols article,.demobar,.footerrecommend>a,.privacy,.notice,.originaleditor>.formattoolbar,.guidecode,.preview pre,.preview code,.stats>div){background:var(--surface-raised);color:var(--foreground);border-color:var(--line)}
+html[data-theme=dark] :is(h1,h2,h3,h4,strong,.sitebrand,.footerlogo,.footernetwork h3,.footerrecommend h3,.originalcard h3){color:var(--foreground)}
+html[data-theme=dark] :is(p,small,.siteheader nav,.originalcard p,.footerrecommend p,.herowidth p,.originaldemocols li,.panelbar,.editorstatus,.search-results small){color:#b4b4c0}
+html[data-theme=dark] :is(.primary,button.primary){background:#7959ed;color:#fff}
+html[data-theme=dark] :is(.tabs .selected,.purpleicon,.toolicon,.search-results a:hover,.search-results a:focus){background:#36265a;color:#d8c7ff}
+html[data-theme=dark] :is(th,td,hr,blockquote,.footernetwork,.footerlegal,.footercolumns,.originaleditor .formattoolbar){border-color:var(--line)}
+html[data-theme=dark] :is(th,thead){background:var(--surface-raised);color:var(--foreground)}
+html[data-theme=dark] main[class*="sheet"]{color:var(--foreground)}
+html[data-theme=dark] main[class*="sheet"] :is(section,article,pre,textarea,input,table,thead,th,td){background-color:var(--surface);color:var(--foreground);border-color:var(--line)}
+html[data-theme=dark] main[class*="sheet"] :is(h1,h2,h3,p,li,label,summary){color:inherit}
+html[data-theme=dark] .search-results a:focus{outline:2px solid #bda6ff}
+html[data-theme=dark] .prose,html[data-theme=dark] :is(.preview,.documentrender) .prose{color:#e4e4e7}
+html[data-theme=dark] .prose :is(li,blockquote,pre,code){color:#d4d4dc}
+@media(max-width:1100px){.siteheader{flex-wrap:wrap;gap:12px}.siteheader nav{order:2;width:100%;justify-content:center}.siteheader>.quiet{margin-left:auto}}
+@media(max-width:700px){.siteheader{min-height:60px;padding:10px 16px}.siteheader nav{order:0;width:auto;margin:0 auto 0 0}.siteheader>.quiet{margin:0}.theme-control select{max-width:76px}.siteheader>.quiet kbd{display:none}}
+@media(max-width:700px){.siteheader{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto;gap:8px}.siteheader .sitebrand{grid-column:1;grid-row:1}.siteheader>.quiet{grid-column:2;grid-row:1;font-size:12px;padding:4px}.siteheader>.theme-control{grid-column:3;grid-row:1}.siteheader>.cloudlink{grid-column:4;grid-row:1}.siteheader nav{grid-column:1/-1;grid-row:2;width:100%;justify-content:flex-start}.siteheader nav>a{display:block!important}.siteheader nav details{display:none}}
+@media print{html[data-theme] body,html[data-theme] main,html[data-theme] :is(.panel,.preview,article,section,pre,code,table,th,td){background:#fff!important;color:#18181b!important}html[data-theme] :is(h1,h2,h3,h4,p,li,strong,small){color:#18181b!important}.theme-control,.siteheader,.skip-nav,.global-search{display:none!important}}

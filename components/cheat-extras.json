@@ -1,0 +1,47 @@
+{
+  "faqs": [
+    {
+      "question": "What is Markdown?",
+      "answer": "Markdown is a lightweight markup language for creating formatted text using a plain-text editor. It was created by John Gruber in 2004 and is now one of the most popular markup languages in the world."
+    },
+    {
+      "question": "Is Markdown the same everywhere?",
+      "answer": "While core Markdown syntax is consistent across platforms, different platforms (GitHub, Discord, Obsidian, etc.) may support additional features or have slight variations. This is often called \"flavored Markdown\"."
+    },
+    {
+      "question": "What can I use Markdown for?",
+      "answer": "Markdown is used for documentation, README files, blog posts, notes, emails, and more. It's supported by GitHub, GitLab, Reddit, Discord, Slack, Notion, Obsidian, and many other platforms."
+    },
+    {
+      "question": "Do I need special software to write Markdown?",
+      "answer": "No, you can write Markdown in any plain text editor. However, specialized Markdown editors like VS Code, Obsidian, or Typora provide live preview and additional features."
+    },
+    {
+      "question": "What are the most common Markdown syntax examples?",
+      "answer": "The most common Markdown examples are: # Heading for headings, **bold** for bold text, *italic* for italics, [title](url) for links, ![alt](image.jpg) for images, - item for bullet lists, > quote for blockquotes, `code` for inline code, and triple backticks for code blocks."
+    },
+    {
+      "question": "Is there a printable Markdown cheat sheet PDF?",
+      "answer": "Yes — click the Download PDF button at the top of this page to get the complete Markdown cheat sheet as a free PDF file you can print or keep offline. No signup or email required."
+    }
+  ],
+  "tools": [
+    {
+      "title": "Markdown Editor",
+      "description": "Write and preview Markdown with our online editor",
+      "href": "/editor"
+    },
+    {
+      "title": "Table Generator",
+      "description": "Create Markdown tables visually",
+      "href": "/table-generator"
+    },
+    {
+      "title": "Quote Generator",
+      "description": "Generate blockquotes and callouts",
+      "href": "/quote-generator"
+    }
+  ],
+  "imageAlt": "Markdown cheat sheet infographic: headings, bold, italic, strikethrough, code, links, images, lists, task lists, blockquotes, code blocks, tables, and footnotes with descriptions",
+  "imageDescription": "Prefer a picture? Save or share the Markdown cheat sheet as a single image — handy for pinning in team chats, wikis, and study notes."
+}

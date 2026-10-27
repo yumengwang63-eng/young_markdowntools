@@ -1,0 +1,3 @@
+'use client';
+import {useEffect,useRef} from 'react';
+export default function useExample(apply:(text:string)=>void,option?:(value:string)=>void){const current=useRef(apply);current.current=apply;const extra=useRef(option);extra.current=option;useEffect(()=>{const handler=(event:Event)=>{const text=(event as CustomEvent).detail;if(typeof text==='string')current.current(text);else if(text&&typeof text.input==='string'){current.current(text.input);if(typeof text.option==='string')extra.current?.(text.option)}};window.addEventListener('load-tool-example',handler);return()=>window.removeEventListener('load-tool-example',handler)},[])}

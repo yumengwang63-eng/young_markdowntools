@@ -1,0 +1,249 @@
+feature_id,feature,syntax,platform_id,platform,state,note,feature_source_url,verified_date
+headings,Headings,# Heading 1,commonmark,CommonMark,yes,ATX (#) and Setext styles; levels 1–6.,https://spec.commonmark.org/0.31.2/#atx-headings,2026-07-18
+headings,Headings,# Heading 1,github,GitHub Flavored Markdown,yes,Levels 1–6 with auto-generated anchors.,https://spec.commonmark.org/0.31.2/#atx-headings,2026-07-18
+headings,Headings,# Heading 1,gitlab,GitLab Flavored Markdown,yes,"Levels 1–6, Setext alternative; auto anchors.",https://spec.commonmark.org/0.31.2/#atx-headings,2026-07-18
+headings,Headings,# Heading 1,obsidian,Obsidian,yes,Levels 1–6; appear in the outline pane.,https://spec.commonmark.org/0.31.2/#atx-headings,2026-07-18
+headings,Headings,# Heading 1,discord,Discord,partial,H1–H3 (# to ###) plus -# subtext only.,https://spec.commonmark.org/0.31.2/#atx-headings,2026-07-18
+headings,Headings,# Heading 1,slack,Slack,no,Not in message formatting; canvases only.,https://spec.commonmark.org/0.31.2/#atx-headings,2026-07-18
+headings,Headings,# Heading 1,reddit,Reddit,yes,Six levels; Setext underline style also works.,https://spec.commonmark.org/0.31.2/#atx-headings,2026-07-18
+headings,Headings,# Heading 1,jupyterRmd,Jupyter / R Markdown,yes,Supported in Jupyter cells and R Markdown.,https://spec.commonmark.org/0.31.2/#atx-headings,2026-07-18
+bold,Bold,**bold text**,commonmark,CommonMark,yes,** or __ delimiters.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+bold,Bold,**bold text**,github,GitHub Flavored Markdown,yes,** or __.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+bold,Bold,**bold text**,gitlab,GitLab Flavored Markdown,yes,** or __.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+bold,Bold,**bold text**,obsidian,Obsidian,yes,** or __.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+bold,Bold,**bold text**,discord,Discord,yes,**text** only; __ is underline here.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+bold,Bold,**bold text**,slack,Slack,yes,*text* markup or the toolbar button.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+bold,Bold,**bold text**,reddit,Reddit,yes,** or __.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+bold,Bold,**bold text**,jupyterRmd,Jupyter / R Markdown,yes,** or __ in both.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+italic,Italic,*italic text*,commonmark,CommonMark,yes,* or _ delimiters.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+italic,Italic,*italic text*,github,GitHub Flavored Markdown,yes,* or _.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+italic,Italic,*italic text*,gitlab,GitLab Flavored Markdown,yes,* or _; intra-word underscores ignored.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+italic,Italic,*italic text*,obsidian,Obsidian,yes,* or _.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+italic,Italic,*italic text*,discord,Discord,yes,*text* or _text_.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+italic,Italic,*italic text*,slack,Slack,yes,_text_ markup or the toolbar button.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+italic,Italic,*italic text*,reddit,Reddit,yes,* or _.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+italic,Italic,*italic text*,jupyterRmd,Jupyter / R Markdown,yes,* or _ in both.,https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis,2026-07-18
+strikethrough,Strikethrough,~~struck text~~,commonmark,CommonMark,no,Not in the spec.,https://github.github.com/gfm/#strikethrough-extension-,2026-07-18
+strikethrough,Strikethrough,~~struck text~~,github,GitHub Flavored Markdown,yes,GFM extension; GitHub also accepts a single ~.,https://github.github.com/gfm/#strikethrough-extension-,2026-07-18
+strikethrough,Strikethrough,~~struck text~~,gitlab,GitLab Flavored Markdown,yes,GLFM: ~~double tildes~~.,https://github.github.com/gfm/#strikethrough-extension-,2026-07-18
+strikethrough,Strikethrough,~~struck text~~,obsidian,Obsidian,yes,GFM-style ~~text~~.,https://github.github.com/gfm/#strikethrough-extension-,2026-07-18
+strikethrough,Strikethrough,~~struck text~~,discord,Discord,yes,~~text~~.,https://github.github.com/gfm/#strikethrough-extension-,2026-07-18
+strikethrough,Strikethrough,~~struck text~~,slack,Slack,yes,~text~ (single tilde) or the toolbar.,https://github.github.com/gfm/#strikethrough-extension-,2026-07-18
+strikethrough,Strikethrough,~~struck text~~,reddit,Reddit,yes,~~double tildes~~.,https://github.github.com/gfm/#strikethrough-extension-,2026-07-18
+strikethrough,Strikethrough,~~struck text~~,jupyterRmd,Jupyter / R Markdown,partial,R Markdown (Pandoc strikeout): yes; not documented for Jupyter cells.,https://github.github.com/gfm/#strikethrough-extension-,2026-07-18
+underline,Underline,<u>text</u> (HTML),commonmark,CommonMark,no,No syntax; raw <u>/<ins> HTML is the only option.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax,2026-07-18
+underline,Underline,<u>text</u> (HTML),github,GitHub Flavored Markdown,partial,No Markdown syntax; GitHub documents the <ins> tag.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax,2026-07-18
+underline,Underline,<u>text</u> (HTML),gitlab,GitLab Flavored Markdown,no,No documented underline syntax.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax,2026-07-18
+underline,Underline,<u>text</u> (HTML),obsidian,Obsidian,partial,"<u> HTML works; no Markdown syntax, and Markdown inside HTML is not processed.",https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax,2026-07-18
+underline,Underline,<u>text</u> (HTML),discord,Discord,yes,__text__ (Discord extension).,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax,2026-07-18
+underline,Underline,<u>text</u> (HTML),slack,Slack,partial,Toolbar only; no markup shortcut.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax,2026-07-18
+underline,Underline,<u>text</u> (HTML),reddit,Reddit,no,Not supported.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax,2026-07-18
+underline,Underline,<u>text</u> (HTML),jupyterRmd,Jupyter / R Markdown,partial,No Markdown syntax; raw <u> passes through to HTML output.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax,2026-07-18
+tables,Tables,"| A | B |
+| --- | --- |",commonmark,CommonMark,no,Not in the spec.,https://github.github.com/gfm/#tables-extension-,2026-07-18
+tables,Tables,"| A | B |
+| --- | --- |",github,GitHub Flavored Markdown,yes,GFM tables extension with column alignment.,https://github.github.com/gfm/#tables-extension-,2026-07-18
+tables,Tables,"| A | B |
+| --- | --- |",gitlab,GitLab Flavored Markdown,yes,GLFM tables; paste from spreadsheets works.,https://github.github.com/gfm/#tables-extension-,2026-07-18
+tables,Tables,"| A | B |
+| --- | --- |",obsidian,Obsidian,yes,Plus Live Preview table editing.,https://github.github.com/gfm/#tables-extension-,2026-07-18
+tables,Tables,"| A | B |
+| --- | --- |",discord,Discord,no,No table syntax.,https://github.github.com/gfm/#tables-extension-,2026-07-18
+tables,Tables,"| A | B |
+| --- | --- |",slack,Slack,no,No tables in messages.,https://github.github.com/gfm/#tables-extension-,2026-07-18
+tables,Tables,"| A | B |
+| --- | --- |",reddit,Reddit,yes,Pipe tables; parsing quirks differ between old and new Reddit.,https://github.github.com/gfm/#tables-extension-,2026-07-18
+tables,Tables,"| A | B |
+| --- | --- |",jupyterRmd,Jupyter / R Markdown,yes,Jupyter renders GFM tables; R Markdown supports pipe tables.,https://github.github.com/gfm/#tables-extension-,2026-07-18
+task-lists,Task lists,"- [x] done
+- [ ] todo",commonmark,CommonMark,no,Not in the spec.,https://github.github.com/gfm/#task-list-items-extension-,2026-07-18
+task-lists,Task lists,"- [x] done
+- [ ] todo",github,GitHub Flavored Markdown,yes,GFM task list extension.,https://github.github.com/gfm/#task-list-items-extension-,2026-07-18
+task-lists,Task lists,"- [x] done
+- [ ] todo",gitlab,GitLab Flavored Markdown,yes,Adds an inapplicable [~] state.,https://github.github.com/gfm/#task-list-items-extension-,2026-07-18
+task-lists,Task lists,"- [x] done
+- [ ] todo",obsidian,Obsidian,yes,Any character inside the brackets marks a task complete.,https://github.github.com/gfm/#task-list-items-extension-,2026-07-18
+task-lists,Task lists,"- [x] done
+- [ ] todo",discord,Discord,no,Renders as a plain list item.,https://github.github.com/gfm/#task-list-items-extension-,2026-07-18
+task-lists,Task lists,"- [x] done
+- [ ] todo",slack,Slack,no,No Markdown syntax for tasks.,https://github.github.com/gfm/#task-list-items-extension-,2026-07-18
+task-lists,Task lists,"- [x] done
+- [ ] todo",reddit,Reddit,no,Renders as a plain list item.,https://github.github.com/gfm/#task-list-items-extension-,2026-07-18
+task-lists,Task lists,"- [x] done
+- [ ] todo",jupyterRmd,Jupyter / R Markdown,partial,R Markdown (Pandoc task_lists): yes; not documented for Jupyter cells.,https://github.github.com/gfm/#task-list-items-extension-,2026-07-18
+footnotes,Footnotes,"Text.[^1]
+
+[^1]: The note.",commonmark,CommonMark,no,Not in the spec.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes,2026-07-18
+footnotes,Footnotes,"Text.[^1]
+
+[^1]: The note.",github,GitHub Flavored Markdown,yes,GitHub.com extension; not part of the GFM spec itself.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes,2026-07-18
+footnotes,Footnotes,"Text.[^1]
+
+[^1]: The note.",gitlab,GitLab Flavored Markdown,yes,GLFM footnotes.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes,2026-07-18
+footnotes,Footnotes,"Text.[^1]
+
+[^1]: The note.",obsidian,Obsidian,yes,Plus inline ^[...] footnotes.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes,2026-07-18
+footnotes,Footnotes,"Text.[^1]
+
+[^1]: The note.",discord,Discord,no,Renders as literal [^1].,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes,2026-07-18
+footnotes,Footnotes,"Text.[^1]
+
+[^1]: The note.",slack,Slack,no,Not supported.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes,2026-07-18
+footnotes,Footnotes,"Text.[^1]
+
+[^1]: The note.",reddit,Reddit,no,Renders as literal [^1].,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes,2026-07-18
+footnotes,Footnotes,"Text.[^1]
+
+[^1]: The note.",jupyterRmd,Jupyter / R Markdown,partial,R Markdown (Pandoc footnotes): yes; Jupyter cells do not render them.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes,2026-07-18
+math,Math (LaTeX),$x^2$,commonmark,CommonMark,no,Not in the spec.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions,2026-07-18
+math,Math (LaTeX),$x^2$,github,GitHub Flavored Markdown,yes,MathJax on github.com; $ inline and $$ blocks.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions,2026-07-18
+math,Math (LaTeX),$x^2$,gitlab,GitLab Flavored Markdown,yes,KaTeX; $`...`$ inline and ```math blocks.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions,2026-07-18
+math,Math (LaTeX),$x^2$,obsidian,Obsidian,yes,MathJax; $ inline and $$ blocks.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions,2026-07-18
+math,Math (LaTeX),$x^2$,discord,Discord,no,Not supported.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions,2026-07-18
+math,Math (LaTeX),$x^2$,slack,Slack,no,Not supported.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions,2026-07-18
+math,Math (LaTeX),$x^2$,reddit,Reddit,no,No native rendering.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions,2026-07-18
+math,Math (LaTeX),$x^2$,jupyterRmd,Jupyter / R Markdown,yes,MathJax in Jupyter cells; LaTeX math in R Markdown.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions,2026-07-18
+mermaid,Mermaid / diagrams,"```mermaid
+graph TD
+  A --> B
+```",commonmark,CommonMark,no,Renders as a plain code block.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams,2026-07-18
+mermaid,Mermaid / diagrams,"```mermaid
+graph TD
+  A --> B
+```",github,GitHub Flavored Markdown,yes,Mermaid blocks render as diagrams on github.com.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams,2026-07-18
+mermaid,Mermaid / diagrams,"```mermaid
+graph TD
+  A --> B
+```",gitlab,GitLab Flavored Markdown,yes,```mermaid; PlantUML and Kroki also available.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams,2026-07-18
+mermaid,Mermaid / diagrams,"```mermaid
+graph TD
+  A --> B
+```",obsidian,Obsidian,yes,Native Mermaid rendering in notes.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams,2026-07-18
+mermaid,Mermaid / diagrams,"```mermaid
+graph TD
+  A --> B
+```",discord,Discord,no,Renders as a code block.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams,2026-07-18
+mermaid,Mermaid / diagrams,"```mermaid
+graph TD
+  A --> B
+```",slack,Slack,no,Renders as a code block.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams,2026-07-18
+mermaid,Mermaid / diagrams,"```mermaid
+graph TD
+  A --> B
+```",reddit,Reddit,no,Renders as a code block.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams,2026-07-18
+mermaid,Mermaid / diagrams,"```mermaid
+graph TD
+  A --> B
+```",jupyterRmd,Jupyter / R Markdown,partial,JupyterLab 4.1+ renders ```mermaid natively; R Markdown needs the DiagrammeR package.,https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams,2026-07-18
+raw-html,Raw HTML,<div>text</div>,commonmark,CommonMark,yes,HTML blocks and inline HTML are part of the spec.,https://spec.commonmark.org/0.31.2/#raw-html,2026-07-18
+raw-html,Raw HTML,<div>text</div>,github,GitHub Flavored Markdown,partial,Sanitized subset; scripts and some tags are stripped.,https://spec.commonmark.org/0.31.2/#raw-html,2026-07-18
+raw-html,Raw HTML,<div>text</div>,gitlab,GitLab Flavored Markdown,partial,Sanitized subset (e.g. <details> and <br>).,https://spec.commonmark.org/0.31.2/#raw-html,2026-07-18
+raw-html,Raw HTML,<div>text</div>,obsidian,Obsidian,partial,"Renders HTML, but Markdown inside HTML is intentionally not processed.",https://spec.commonmark.org/0.31.2/#raw-html,2026-07-18
+raw-html,Raw HTML,<div>text</div>,discord,Discord,no,HTML renders as literal text.,https://spec.commonmark.org/0.31.2/#raw-html,2026-07-18
+raw-html,Raw HTML,<div>text</div>,slack,Slack,no,No HTML rendering.,https://spec.commonmark.org/0.31.2/#raw-html,2026-07-18
+raw-html,Raw HTML,<div>text</div>,reddit,Reddit,no,Tags render as literal text; only HTML entities work.,https://spec.commonmark.org/0.31.2/#raw-html,2026-07-18
+raw-html,Raw HTML,<div>text</div>,jupyterRmd,Jupyter / R Markdown,partial,Jupyter renders raw HTML; R Markdown passes it to HTML output only.,https://spec.commonmark.org/0.31.2/#raw-html,2026-07-18
+spoilers,Spoilers,||hidden text||,commonmark,CommonMark,no,Not in the spec.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+spoilers,Spoilers,||hidden text||,github,GitHub Flavored Markdown,partial,No spoiler syntax; <details> HTML gives collapsible sections.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+spoilers,Spoilers,||hidden text||,gitlab,GitLab Flavored Markdown,partial,No spoiler syntax; <details>/<summary> HTML.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+spoilers,Spoilers,||hidden text||,obsidian,Obsidian,no,No spoiler syntax.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+spoilers,Spoilers,||hidden text||,discord,Discord,yes,||text|| hides content until clicked.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+spoilers,Spoilers,||hidden text||,slack,Slack,no,Not supported.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+spoilers,Spoilers,||hidden text||,reddit,Reddit,yes,>!text!< syntax — different delimiters from Discord.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+spoilers,Spoilers,||hidden text||,jupyterRmd,Jupyter / R Markdown,no,Not supported.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+timestamps,Dynamic timestamps,<t:1752840000:R>,commonmark,CommonMark,no,Not in the spec.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+timestamps,Dynamic timestamps,<t:1752840000:R>,github,GitHub Flavored Markdown,no,Not supported.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+timestamps,Dynamic timestamps,<t:1752840000:R>,gitlab,GitLab Flavored Markdown,no,Not supported.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+timestamps,Dynamic timestamps,<t:1752840000:R>,obsidian,Obsidian,no,Not supported.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+timestamps,Dynamic timestamps,<t:1752840000:R>,discord,Discord,yes,<t:unix:format> renders in each viewer’s timezone; seven formats.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+timestamps,Dynamic timestamps,<t:1752840000:R>,slack,Slack,partial,Via <!date^unix^text> in app/bot messages (Slack mrkdwn).,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+timestamps,Dynamic timestamps,<t:1752840000:R>,reddit,Reddit,no,Not supported.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+timestamps,Dynamic timestamps,<t:1752840000:R>,jupyterRmd,Jupyter / R Markdown,no,Not supported.,https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline,2026-07-18
+callouts,Callouts / alerts,"> [!note]
+> Content",commonmark,CommonMark,no,Renders as a plain blockquote.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts,2026-07-18
+callouts,Callouts / alerts,"> [!note]
+> Content",github,GitHub Flavored Markdown,yes,"Alerts: NOTE, TIP, IMPORTANT, WARNING, CAUTION.",https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts,2026-07-18
+callouts,Callouts / alerts,"> [!note]
+> Content",gitlab,GitLab Flavored Markdown,yes,"GLFM alerts (note, tip, warning, caution, important).",https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts,2026-07-18
+callouts,Callouts / alerts,"> [!note]
+> Content",obsidian,Obsidian,yes,"13 types with aliases, folding, and nesting.",https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts,2026-07-18
+callouts,Callouts / alerts,"> [!note]
+> Content",discord,Discord,no,Renders as a plain blockquote.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts,2026-07-18
+callouts,Callouts / alerts,"> [!note]
+> Content",slack,Slack,no,Renders as a plain quote.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts,2026-07-18
+callouts,Callouts / alerts,"> [!note]
+> Content",reddit,Reddit,no,Renders as a plain blockquote.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts,2026-07-18
+callouts,Callouts / alerts,"> [!note]
+> Content",jupyterRmd,Jupyter / R Markdown,no,Quarto (R Markdown’s successor) adds callout blocks; classic R Markdown has none.,https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts,2026-07-18
+wikilinks,Wikilinks,[[Page Name]],commonmark,CommonMark,no,Not in the spec.,https://help.obsidian.md/links,2026-07-18
+wikilinks,Wikilinks,[[Page Name]],github,GitHub Flavored Markdown,partial,[[links]] resolve in GitHub wiki pages only.,https://help.obsidian.md/links,2026-07-18
+wikilinks,Wikilinks,[[Page Name]],gitlab,GitLab Flavored Markdown,partial,[[Page]] works in wiki pages; regular files and comments do not resolve it.,https://help.obsidian.md/links,2026-07-18
+wikilinks,Wikilinks,[[Page Name]],obsidian,Obsidian,yes,Vault-native; auto-updates when the target note is renamed.,https://help.obsidian.md/links,2026-07-18
+wikilinks,Wikilinks,[[Page Name]],discord,Discord,no,Renders as literal brackets.,https://help.obsidian.md/links,2026-07-18
+wikilinks,Wikilinks,[[Page Name]],slack,Slack,no,Not supported.,https://help.obsidian.md/links,2026-07-18
+wikilinks,Wikilinks,[[Page Name]],reddit,Reddit,no,Renders as literal brackets.,https://help.obsidian.md/links,2026-07-18
+wikilinks,Wikilinks,[[Page Name]],jupyterRmd,Jupyter / R Markdown,no,Renders as literal brackets.,https://help.obsidian.md/links,2026-07-18
+highlight,Highlight,==highlighted text==,commonmark,CommonMark,no,Not in the spec.,https://help.obsidian.md/syntax,2026-07-18
+highlight,Highlight,==highlighted text==,github,GitHub Flavored Markdown,no,Renders as literal ==.,https://help.obsidian.md/syntax,2026-07-18
+highlight,Highlight,==highlighted text==,gitlab,GitLab Flavored Markdown,no,Renders as literal ==.,https://help.obsidian.md/syntax,2026-07-18
+highlight,Highlight,==highlighted text==,obsidian,Obsidian,yes,==text== marker-style highlight.,https://help.obsidian.md/syntax,2026-07-18
+highlight,Highlight,==highlighted text==,discord,Discord,no,Renders as literal ==.,https://help.obsidian.md/syntax,2026-07-18
+highlight,Highlight,==highlighted text==,slack,Slack,no,Not supported.,https://help.obsidian.md/syntax,2026-07-18
+highlight,Highlight,==highlighted text==,reddit,Reddit,no,Renders as literal ==.,https://help.obsidian.md/syntax,2026-07-18
+highlight,Highlight,==highlighted text==,jupyterRmd,Jupyter / R Markdown,no,Pandoc’s ==mark== extension exists but is off by default.,https://help.obsidian.md/syntax,2026-07-18
+comments,Comments (hidden text),%%hidden%%,commonmark,CommonMark,partial,Via <!-- --> HTML comments; hidden but kept in the output source.,https://help.obsidian.md/syntax#Comments,2026-07-18
+comments,Comments (hidden text),%%hidden%%,github,GitHub Flavored Markdown,yes,GitHub documents hiding content with <!-- --> comments.,https://help.obsidian.md/syntax#Comments,2026-07-18
+comments,Comments (hidden text),%%hidden%%,gitlab,GitLab Flavored Markdown,partial,No dedicated syntax; <!-- --> HTML comments.,https://help.obsidian.md/syntax#Comments,2026-07-18
+comments,Comments (hidden text),%%hidden%%,obsidian,Obsidian,yes,%%comment%% hides text in Reading view and on publish.,https://help.obsidian.md/syntax#Comments,2026-07-18
+comments,Comments (hidden text),%%hidden%%,discord,Discord,no,Not supported.,https://help.obsidian.md/syntax#Comments,2026-07-18
+comments,Comments (hidden text),%%hidden%%,slack,Slack,no,Not supported.,https://help.obsidian.md/syntax#Comments,2026-07-18
+comments,Comments (hidden text),%%hidden%%,reddit,Reddit,no,Not supported.,https://help.obsidian.md/syntax#Comments,2026-07-18
+comments,Comments (hidden text),%%hidden%%,jupyterRmd,Jupyter / R Markdown,partial,<!-- --> hidden in HTML output only.,https://help.obsidian.md/syntax#Comments,2026-07-18
+code-blocks,Code blocks,"```js
+code
+```",commonmark,CommonMark,yes,Fenced and indented blocks.,https://spec.commonmark.org/0.31.2/#fenced-code-blocks,2026-07-18
+code-blocks,Code blocks,"```js
+code
+```",github,GitHub Flavored Markdown,yes,"Fenced, with syntax highlighting.",https://spec.commonmark.org/0.31.2/#fenced-code-blocks,2026-07-18
+code-blocks,Code blocks,"```js
+code
+```",gitlab,GitLab Flavored Markdown,yes,Fenced; 100+ highlight languages.,https://spec.commonmark.org/0.31.2/#fenced-code-blocks,2026-07-18
+code-blocks,Code blocks,"```js
+code
+```",obsidian,Obsidian,yes,"Fenced, with syntax highlighting.",https://spec.commonmark.org/0.31.2/#fenced-code-blocks,2026-07-18
+code-blocks,Code blocks,"```js
+code
+```",discord,Discord,yes,``` with optional language.,https://spec.commonmark.org/0.31.2/#fenced-code-blocks,2026-07-18
+code-blocks,Code blocks,"```js
+code
+```",slack,Slack,yes,``` or the toolbar code block.,https://spec.commonmark.org/0.31.2/#fenced-code-blocks,2026-07-18
+code-blocks,Code blocks,"```js
+code
+```",reddit,Reddit,partial,Fenced blocks only on new Reddit; old Reddit supports indented blocks only.,https://spec.commonmark.org/0.31.2/#fenced-code-blocks,2026-07-18
+code-blocks,Code blocks,"```js
+code
+```",jupyterRmd,Jupyter / R Markdown,yes,Fenced blocks; R Markdown chunks also execute code.,https://spec.commonmark.org/0.31.2/#fenced-code-blocks,2026-07-18
+blockquotes,Blockquotes,> quoted text,commonmark,CommonMark,yes,> at the start of a line.,https://spec.commonmark.org/0.31.2/#block-quotes,2026-07-18
+blockquotes,Blockquotes,> quoted text,github,GitHub Flavored Markdown,yes,> at the start of a line.,https://spec.commonmark.org/0.31.2/#block-quotes,2026-07-18
+blockquotes,Blockquotes,> quoted text,gitlab,GitLab Flavored Markdown,yes,> at the start of a line.,https://spec.commonmark.org/0.31.2/#block-quotes,2026-07-18
+blockquotes,Blockquotes,> quoted text,obsidian,Obsidian,yes,> at the start of a line.,https://spec.commonmark.org/0.31.2/#block-quotes,2026-07-18
+blockquotes,Blockquotes,> quoted text,discord,Discord,yes,> for one line; >>> quotes the rest of the message.,https://spec.commonmark.org/0.31.2/#block-quotes,2026-07-18
+blockquotes,Blockquotes,> quoted text,slack,Slack,yes,> markup or the toolbar.,https://spec.commonmark.org/0.31.2/#block-quotes,2026-07-18
+blockquotes,Blockquotes,> quoted text,reddit,Reddit,yes,> at the start of a line.,https://spec.commonmark.org/0.31.2/#block-quotes,2026-07-18
+blockquotes,Blockquotes,> quoted text,jupyterRmd,Jupyter / R Markdown,yes,> at the start of a line.,https://spec.commonmark.org/0.31.2/#block-quotes,2026-07-18
+images,Images,![alt text](image.jpg),commonmark,CommonMark,yes,![alt](url) with optional title.,https://spec.commonmark.org/0.31.2/#images,2026-07-18
+images,Images,![alt text](image.jpg),github,GitHub Flavored Markdown,yes,![alt](url); relative paths and uploads supported.,https://spec.commonmark.org/0.31.2/#images,2026-07-18
+images,Images,![alt text](image.jpg),gitlab,GitLab Flavored Markdown,yes,![alt](url); uploads supported.,https://spec.commonmark.org/0.31.2/#images,2026-07-18
+images,Images,![alt text](image.jpg),obsidian,Obsidian,yes,Plus ![[embeds]] for vault files.,https://spec.commonmark.org/0.31.2/#images,2026-07-18
+images,Images,![alt text](image.jpg),discord,Discord,no,Attachments/embeds only; no Markdown image syntax.,https://spec.commonmark.org/0.31.2/#images,2026-07-18
+images,Images,![alt text](image.jpg),slack,Slack,no,File uploads only; no Markdown image syntax.,https://spec.commonmark.org/0.31.2/#images,2026-07-18
+images,Images,![alt text](image.jpg),reddit,Reddit,partial,No Markdown image syntax; the rich-text editor supports image uploads.,https://spec.commonmark.org/0.31.2/#images,2026-07-18
+images,Images,![alt text](image.jpg),jupyterRmd,Jupyter / R Markdown,yes,Standard syntax; Jupyter also supports attachment: references.,https://spec.commonmark.org/0.31.2/#images,2026-07-18
+links,Links,[text](https://example.com),commonmark,CommonMark,yes,"Inline, reference, and autolinks.",https://spec.commonmark.org/0.31.2/#links,2026-07-18
+links,Links,[text](https://example.com),github,GitHub Flavored Markdown,yes,"Inline, reference, and autolinks.",https://spec.commonmark.org/0.31.2/#links,2026-07-18
+links,Links,[text](https://example.com),gitlab,GitLab Flavored Markdown,yes,"Inline, reference, and autolinks.",https://spec.commonmark.org/0.31.2/#links,2026-07-18
+links,Links,[text](https://example.com),obsidian,Obsidian,yes,Inline links; [[wikilinks]] are the default.,https://spec.commonmark.org/0.31.2/#links,2026-07-18
+links,Links,[text](https://example.com),discord,Discord,yes,Masked links [text](url) in user messages.,https://spec.commonmark.org/0.31.2/#links,2026-07-18
+links,Links,[text](https://example.com),slack,Slack,partial,Composer toolbar or paste-to-link; mrkdwn uses <url|text>.,https://spec.commonmark.org/0.31.2/#links,2026-07-18
+links,Links,[text](https://example.com),reddit,Reddit,yes,"Inline, reference, and autolinks.",https://spec.commonmark.org/0.31.2/#links,2026-07-18
+links,Links,[text](https://example.com),jupyterRmd,Jupyter / R Markdown,yes,Inline links in both.,https://spec.commonmark.org/0.31.2/#links,2026-07-18

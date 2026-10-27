@@ -1,0 +1,492 @@
+[
+  {
+    "slug": "cheat-sheet",
+    "name": "Markdown Cheat Sheet",
+    "description": "Complete Markdown syntax reference with interactive examples"
+  },
+  {
+    "slug": "discord-markdown",
+    "name": "Discord Markdown Guide",
+    "description": "Discord text formatting: bold, italic, underline, code blocks, spoilers, timestamps, and colored text"
+  },
+  {
+    "slug": "r-markdown-cheat-sheet",
+    "name": "R Markdown Cheat Sheet",
+    "description": "Complete R Markdown reference with code chunks and output options"
+  },
+  {
+    "slug": "obsidian-cheat-sheet",
+    "name": "Obsidian Markdown Cheat Sheet",
+    "description": "Obsidian Markdown syntax including wikilinks, callouts, embeds, and printable examples"
+  },
+  {
+    "slug": "obsidian-callouts",
+    "name": "Obsidian Callouts Guide",
+    "description": "Obsidian callout syntax, every built-in type, collapsible callouts, and examples"
+  },
+  {
+    "slug": "obsidian-wikilinks",
+    "name": "Obsidian Wikilinks Guide",
+    "description": "Obsidian wikilink syntax for linking notes, headings, and blocks, plus embeds"
+  },
+  {
+    "slug": "reddit-markdown",
+    "name": "Reddit Markdown Guide",
+    "description": "Reddit text formatting with Markdown, including spoilers and superscript"
+  },
+  {
+    "slug": "gitlab-markdown",
+    "name": "GitLab Markdown Cheat Sheet",
+    "description": "GitLab Flavored Markdown (GLFM) with task lists, math, diagrams, and references"
+  },
+  {
+    "slug": "html-to-markdown",
+    "name": "HTML to Markdown Converter",
+    "description": "Convert HTML to clean Markdown syntax"
+  },
+  {
+    "slug": "markdown-to-html",
+    "name": "Markdown to HTML Converter",
+    "description": "Convert Markdown to HTML code"
+  },
+  {
+    "slug": "markdown-to-pdf",
+    "name": "Markdown to PDF Converter",
+    "description": "Export Markdown to print-ready PDFs with live preview, templates, page sizes, margins, and themes"
+  },
+  {
+    "slug": "table-generator",
+    "name": "Markdown Table Generator",
+    "description": "Visual table builder for Markdown"
+  },
+  {
+    "slug": "quote-generator",
+    "name": "Markdown Quote Generator",
+    "description": "Generate blockquotes with attribution and nesting"
+  },
+  {
+    "slug": "markdown-callouts",
+    "name": "Markdown Callout Generator",
+    "description": "Build GitHub, GitLab and Obsidian callouts with an honest live preview"
+  },
+  {
+    "slug": "word-counter",
+    "name": "Word Counter",
+    "description": "Count words, characters, sentences, and more"
+  },
+  {
+    "slug": "text-compare",
+    "name": "Text Compare",
+    "description": "Compare two texts and see the differences"
+  },
+  {
+    "slug": "case-converter",
+    "name": "Case Converter",
+    "description": "Convert text between uppercase, lowercase, title case, and more"
+  },
+  {
+    "slug": "snake-case-converter",
+    "name": "Snake Case Converter",
+    "description": "Convert text to snake_case format for Python and databases"
+  },
+  {
+    "slug": "kebab-case-converter",
+    "name": "Kebab Case Converter",
+    "description": "Convert text to kebab-case format for URLs and CSS"
+  },
+  {
+    "slug": "alternating-case-converter",
+    "name": "Alternating Case Converter",
+    "description": "Convert text to aLtErNaTiNg CaSe for memes and sarcasm"
+  },
+  {
+    "slug": "title-case-converter",
+    "name": "Title Case Converter",
+    "description": "Convert text to title case with APA, MLA, and Chicago style options"
+  },
+  {
+    "slug": "slack-markdown",
+    "name": "Slack Markdown Guide",
+    "description": "Slack message formatting with mrkdwn syntax"
+  },
+  {
+    "slug": "jupyter-markdown-cheat-sheet",
+    "name": "Jupyter Notebook Markdown",
+    "description": "Jupyter Notebook Markdown cells with LaTeX, tables, images, HTML, and shortcuts"
+  },
+  {
+    "slug": "github-markdown-cheat-sheet",
+    "name": "GitHub Markdown Cheat Sheet",
+    "description": "GitHub Flavored Markdown with task lists, tables, and syntax highlighting"
+  },
+  {
+    "slug": "pdf-to-markdown",
+    "name": "PDF to Markdown Converter",
+    "description": "Extract text from PDF files and convert to Markdown — with OCR for scanned PDFs"
+  },
+  {
+    "slug": "markdown-to-word",
+    "name": "Markdown to Word Converter",
+    "description": "Convert Markdown to Word (.docx) documents"
+  },
+  {
+    "slug": "url-to-markdown",
+    "name": "URL to Markdown",
+    "description": "Paste a web page URL and get the page as clean Markdown"
+  },
+  {
+    "slug": "google-docs-to-markdown",
+    "name": "Google Docs to Markdown",
+    "description": "Convert Google Docs content to Markdown by pasting HTML"
+  },
+  {
+    "slug": "markdown-to-google-docs",
+    "name": "Markdown to Google Docs",
+    "description": "Copy Markdown as rich text and paste it straight into Google Docs"
+  },
+  {
+    "slug": "csv-to-markdown-table",
+    "name": "CSV to Markdown Table",
+    "description": "Convert CSV data to a formatted Markdown table"
+  },
+  {
+    "slug": "excel-to-markdown",
+    "name": "Excel to Markdown Table",
+    "description": "Convert Excel or tab-delimited data to Markdown tables"
+  },
+  {
+    "slug": "json-to-markdown-table",
+    "name": "JSON to Markdown Table",
+    "description": "Convert JSON arrays to formatted Markdown tables"
+  },
+  {
+    "slug": "notion-to-markdown",
+    "name": "Notion to Markdown",
+    "description": "Convert Notion pages to clean Markdown by pasting copied content"
+  },
+  {
+    "slug": "rich-text-to-markdown",
+    "name": "Rich Text to Markdown",
+    "description": "Paste formatted text from any app and convert it to Markdown"
+  },
+  {
+    "slug": "markdown-to-rich-text",
+    "name": "Markdown to Rich Text",
+    "description": "Convert Markdown to formatted rich text you can paste into Word, Gmail, or Docs"
+  },
+  {
+    "slug": "confluence-to-markdown",
+    "name": "Confluence to Markdown",
+    "description": "Convert Confluence pages to Markdown with info panels mapped to callouts"
+  },
+  {
+    "slug": "table-of-contents-generator",
+    "name": "Table of Contents Generator",
+    "description": "Auto-generate a table of contents from Markdown headings"
+  },
+  {
+    "slug": "readme-generator",
+    "name": "README Generator",
+    "description": "Generate complete project README files with customizable sections"
+  },
+  {
+    "slug": "github-profile-readme",
+    "name": "GitHub Profile README Generator",
+    "description": "Create a personalized GitHub profile README"
+  },
+  {
+    "slug": "badge-generator",
+    "name": "Markdown Badge Generator",
+    "description": "Create custom Shields.io badges for documentation"
+  },
+  {
+    "slug": "link-generator",
+    "name": "Markdown Link Generator",
+    "description": "Generate Markdown links in multiple formats"
+  },
+  {
+    "slug": "code-block-generator",
+    "name": "Code Block Generator",
+    "description": "Generate syntax-highlighted fenced code blocks for Markdown, Discord, and documentation"
+  },
+  {
+    "slug": "discord-timestamp-generator",
+    "name": "Discord Timestamp Generator",
+    "description": "Generate dynamic Discord timestamps that display in every reader's local timezone"
+  },
+  {
+    "slug": "discord-colored-text",
+    "name": "Discord Colored Text Generator",
+    "description": "Generate colored Discord messages with ANSI code blocks — escape characters included"
+  },
+  {
+    "slug": "checkbox-generator",
+    "name": "Markdown Checkbox Generator",
+    "description": "Generate Markdown task lists with interactive checkboxes"
+  },
+  {
+    "slug": "readme-templates",
+    "name": "README Templates",
+    "description": "Ready-to-use README templates for libraries, CLIs, APIs, and GitHub profiles"
+  },
+  {
+    "slug": "table-merge-cells",
+    "name": "Table Merge Cells",
+    "description": "Create HTML tables with merged cells using colspan and rowspan"
+  },
+  {
+    "slug": "table-formatter",
+    "name": "Markdown Table Formatter",
+    "description": "Align messy Markdown pipe tables while preserving column alignment markers"
+  },
+  {
+    "slug": "table-without-header",
+    "name": "Table Without Header",
+    "description": "Create Markdown tables without a header row"
+  },
+  {
+    "slug": "table-alignment",
+    "name": "Table Alignment",
+    "description": "Control column alignment in Markdown tables"
+  },
+  {
+    "slug": "center-table",
+    "name": "Center Table",
+    "description": "Center Markdown tables on a page using multiple methods"
+  },
+  {
+    "slug": "html-table-to-markdown",
+    "name": "HTML Table to Markdown",
+    "description": "Extract HTML tables and convert them to Markdown table syntax"
+  },
+  {
+    "slug": "character-counter",
+    "name": "Character Counter",
+    "description": "Count characters with platform-specific limits for social media and SEO"
+  },
+  {
+    "slug": "twitter-character-counter",
+    "name": "Twitter Character Counter",
+    "description": "Count characters for Twitter/X posts with URL and emoji adjustments"
+  },
+  {
+    "slug": "chinese-character-counter",
+    "name": "Chinese Character Counter",
+    "description": "Count Chinese, Japanese, and Korean characters separately"
+  },
+  {
+    "slug": "reading-time-calculator",
+    "name": "Reading Time Calculator",
+    "description": "Calculate estimated reading and speaking time for any text"
+  },
+  {
+    "slug": "markdown-formatter",
+    "name": "Markdown Formatter",
+    "description": "Beautify Markdown drafts with table alignment, spacing cleanup, and list marker normalization"
+  },
+  {
+    "slug": "editor",
+    "name": "Online Markdown Editor",
+    "description": "Write Markdown with a formatting toolbar, local autosave, callouts, math, diagrams, file open, and live preview"
+  },
+  {
+    "slug": "preview",
+    "name": "Markdown Viewer",
+    "description": "Open a .md file and read it rendered: outline navigation, five reading styles, GFM, callouts, math, diagrams, and export to HTML or PDF"
+  },
+  {
+    "slug": "folder-editor",
+    "name": "Folder Editor",
+    "description": "Open a folder of .md files from your computer, edit each one in the browser, and save straight back to disk — nothing is uploaded"
+  },
+  {
+    "slug": "markdown-to-slack",
+    "name": "Markdown to Slack",
+    "description": "Convert Markdown (including ChatGPT and Claude output) to Slack mrkdwn formatting"
+  },
+  {
+    "slug": "markdown-to-discord",
+    "name": "Markdown to Discord",
+    "description": "Normalize Markdown for Discord messages with tables and unsupported syntax handled"
+  },
+  {
+    "slug": "markdown-to-whatsapp",
+    "name": "Markdown to WhatsApp",
+    "description": "Convert Markdown to WhatsApp formatting with single-character bold, italic, and strikethrough"
+  },
+  {
+    "slug": "markdown-to-telegram",
+    "name": "Markdown to Telegram",
+    "description": "Convert Markdown to Telegram-friendly formatting for messages and channels"
+  },
+  {
+    "slug": "remove-markdown",
+    "name": "Remove Markdown",
+    "description": "Strip all Markdown formatting and convert to clean plain text"
+  },
+  {
+    "slug": "markdown-to-jira",
+    "name": "Markdown to Jira",
+    "description": "Convert Markdown to Jira wiki markup for tickets and comments"
+  },
+  {
+    "slug": "jira-to-markdown",
+    "name": "Jira to Markdown",
+    "description": "Convert Jira wiki markup to standard Markdown"
+  },
+  {
+    "slug": "markdown-to-bbcode",
+    "name": "Markdown to BBCode",
+    "description": "Convert Markdown to BBCode for forums, Steam, and NexusMods"
+  },
+  {
+    "slug": "markdown-lint",
+    "name": "Markdown Lint",
+    "description": "Check Markdown for syntax and style problems with markdownlint rules and auto-fix"
+  },
+  {
+    "slug": "markdown-table-to-csv",
+    "name": "Markdown Table to CSV",
+    "description": "Convert Markdown tables to CSV with proper quoting"
+  },
+  {
+    "slug": "markdown-table-to-json",
+    "name": "Markdown Table to JSON",
+    "description": "Convert Markdown tables to a JSON array of objects"
+  },
+  {
+    "slug": "markdown-table-to-excel",
+    "name": "Markdown Table to Excel",
+    "description": "Convert Markdown tables to Excel-compatible CSV files"
+  },
+  {
+    "slug": "markdown-table-to-html",
+    "name": "Markdown Table to HTML",
+    "description": "Convert Markdown tables to clean HTML table markup"
+  },
+  {
+    "slug": "markdown-table-to-latex",
+    "name": "Markdown Table to LaTeX",
+    "description": "Convert Markdown tables to LaTeX tabular environments"
+  },
+  {
+    "slug": "emoji-cheat-sheet",
+    "name": "Markdown Emoji Cheat Sheet",
+    "description": "Searchable list of GitHub emoji shortcodes with click-to-copy"
+  },
+  {
+    "slug": "mermaid-editor",
+    "name": "Mermaid Editor",
+    "description": "Preview Mermaid diagrams and export Markdown or SVG for developer docs"
+  },
+  {
+    "slug": "readme-auditor",
+    "name": "README Auditor",
+    "description": "Score README coverage for install, usage, API, configuration, license, and screenshots"
+  },
+  {
+    "slug": "markdown-link-checker",
+    "name": "Markdown Link Checker",
+    "description": "Check heading anchors, duplicate headings, empty link text, and image alt text"
+  },
+  {
+    "slug": "openapi-to-markdown",
+    "name": "OpenAPI to Markdown",
+    "description": "Convert OpenAPI JSON or YAML specs into Markdown endpoint documentation"
+  },
+  {
+    "slug": "mdx-validator",
+    "name": "MDX Validator",
+    "description": "Find common MDX syntax issues before publishing docs"
+  },
+  {
+    "slug": "changelog-generator",
+    "name": "Changelog Generator",
+    "description": "Turn commit lines and PR titles into release-note Markdown"
+  },
+  {
+    "slug": "llms-txt-generator",
+    "name": "llms.txt Generator",
+    "description": "Generate llms.txt Markdown indexes for agent-readable documentation"
+  },
+  {
+    "slug": "discord-code-block",
+    "name": "Discord Code Block Guide",
+    "description": "Discord code blocks: inline code, multi-line blocks, syntax highlighting, and diff formatting"
+  },
+  {
+    "slug": "discord-text-formatting",
+    "name": "Discord Text Formatting Guide",
+    "description": "Discord text formatting: bold, italic, underline, strikethrough, headers, and small text"
+  },
+  {
+    "slug": "discord-spoiler",
+    "name": "Discord Spoiler Tag Guide",
+    "description": "Discord spoiler tags for text, images, and attachments, with mobile instructions"
+  },
+  {
+    "slug": "docx-to-markdown",
+    "name": "DOCX to Markdown Converter",
+    "description": "Convert Word (.docx) files to clean Markdown in your browser"
+  },
+  {
+    "slug": "markdown-to-docx",
+    "name": "Markdown to DOCX Converter",
+    "description": "Export Markdown as a formatted .docx Word document"
+  },
+  {
+    "slug": "chatgpt-to-word",
+    "name": "ChatGPT to Word Converter",
+    "description": "Turn ChatGPT, Claude, or Gemini output into a formatted Word document"
+  },
+  {
+    "slug": "chatgpt-to-pdf",
+    "name": "ChatGPT to PDF Converter",
+    "description": "Turn a ChatGPT answer into a formatted PDF or Word file, repairing LaTeX math, source markers and broken lists"
+  },
+  {
+    "slug": "claude-to-pdf",
+    "name": "Claude to PDF Converter",
+    "description": "Turn a Claude answer or artifact into a formatted PDF or Word file with its tables, callouts and code intact"
+  },
+  {
+    "slug": "gemini-to-pdf",
+    "name": "Gemini to PDF Converter",
+    "description": "Turn a Google Gemini answer into a formatted PDF or Word file, rebuilding the headings Gemini fakes with bold text"
+  },
+  {
+    "slug": "quote-block-generator",
+    "name": "Quote Block Generator",
+    "description": "Generate Markdown blockquotes with nesting, attribution, and multi-paragraph support"
+  },
+  {
+    "slug": "image-generator",
+    "name": "Markdown Image Generator",
+    "description": "Generate Markdown image syntax with alt text, titles, links, captions, and sizing"
+  },
+  {
+    "slug": "github-markdown-image",
+    "name": "GitHub Markdown Image Guide",
+    "description": "Add images to GitHub READMEs: paths, sizing, alignment, and dark/light mode variants"
+  },
+  {
+    "slug": "github-markdown-code-block",
+    "name": "GitHub Code Block Guide",
+    "description": "GitHub code blocks: fenced syntax, language highlighting, diffs, and collapsible sections"
+  },
+  {
+    "slug": "text-to-markdown",
+    "name": "Text to Markdown Converter",
+    "description": "Turn plain text into structured Markdown: headings, lists, links and paragraphs"
+  },
+  {
+    "slug": "markdown-definition-list",
+    "name": "Markdown Definition List Generator",
+    "description": "Generate definition lists as Markdown Extra syntax, HTML, a table, or a bold list"
+  },
+  {
+    "slug": "claude-md-generator",
+    "name": "CLAUDE.md and AGENTS.md Generator",
+    "description": "Write the instruction file a coding agent reads: CLAUDE.md, AGENTS.md, or a Cursor rule"
+  }
+]

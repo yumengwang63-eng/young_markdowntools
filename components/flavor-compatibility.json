@@ -1,0 +1,862 @@
+{
+  "description": "Core Markdown is the same everywhere, but every platform adds and removes features. This verified matrix covers 21 features across 8 platforms — every cell checked against the official documentation on 2026-07-18 . Click a platform name for its full cheat sheet.",
+  "headers": [
+    {
+      "label": "Feature",
+      "href": null
+    },
+    {
+      "label": "CommonMark",
+      "href": null
+    },
+    {
+      "label": "GitHub",
+      "href": "/github-markdown-cheat-sheet"
+    },
+    {
+      "label": "GitLab",
+      "href": "/gitlab-markdown"
+    },
+    {
+      "label": "Obsidian",
+      "href": "/obsidian-cheat-sheet"
+    },
+    {
+      "label": "Discord",
+      "href": "/discord-markdown"
+    },
+    {
+      "label": "Slack",
+      "href": "/slack-markdown"
+    },
+    {
+      "label": "Reddit",
+      "href": "/reddit-markdown"
+    },
+    {
+      "label": "Jupyter / Rmd",
+      "href": "/jupyter-markdown-cheat-sheet"
+    }
+  ],
+  "rows": [
+    {
+      "feature": "Headings",
+      "syntax": "# Heading 1",
+      "source": "https://spec.commonmark.org/0.31.2/#atx-headings",
+      "cells": [
+        {
+          "status": "yes",
+          "note": "ATX (#) and Setext styles; levels 1–6."
+        },
+        {
+          "status": "yes",
+          "note": "Levels 1–6 with auto-generated anchors."
+        },
+        {
+          "status": "yes",
+          "note": "Levels 1–6, Setext alternative; auto anchors."
+        },
+        {
+          "status": "yes",
+          "note": "Levels 1–6; appear in the outline pane."
+        },
+        {
+          "status": "partial",
+          "note": "H1–H3 (# to ###) plus -# subtext only."
+        },
+        {
+          "status": "no",
+          "note": "Not in message formatting; canvases only."
+        },
+        {
+          "status": "yes",
+          "note": "Six levels; Setext underline style also works."
+        },
+        {
+          "status": "yes",
+          "note": "Supported in Jupyter cells and R Markdown."
+        }
+      ]
+    },
+    {
+      "feature": "Bold",
+      "syntax": "**bold text**",
+      "source": "https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis",
+      "cells": [
+        {
+          "status": "yes",
+          "note": "** or __ delimiters."
+        },
+        {
+          "status": "yes",
+          "note": "** or __."
+        },
+        {
+          "status": "yes",
+          "note": "** or __."
+        },
+        {
+          "status": "yes",
+          "note": "** or __."
+        },
+        {
+          "status": "yes",
+          "note": "**text** only; __ is underline here."
+        },
+        {
+          "status": "yes",
+          "note": "*text* markup or the toolbar button."
+        },
+        {
+          "status": "yes",
+          "note": "** or __."
+        },
+        {
+          "status": "yes",
+          "note": "** or __ in both."
+        }
+      ]
+    },
+    {
+      "feature": "Italic",
+      "syntax": "*italic text*",
+      "source": "https://spec.commonmark.org/0.31.2/#emphasis-and-strong-emphasis",
+      "cells": [
+        {
+          "status": "yes",
+          "note": "* or _ delimiters."
+        },
+        {
+          "status": "yes",
+          "note": "* or _."
+        },
+        {
+          "status": "yes",
+          "note": "* or _; intra-word underscores ignored."
+        },
+        {
+          "status": "yes",
+          "note": "* or _."
+        },
+        {
+          "status": "yes",
+          "note": "*text* or _text_."
+        },
+        {
+          "status": "yes",
+          "note": "_text_ markup or the toolbar button."
+        },
+        {
+          "status": "yes",
+          "note": "* or _."
+        },
+        {
+          "status": "yes",
+          "note": "* or _ in both."
+        }
+      ]
+    },
+    {
+      "feature": "Strikethrough",
+      "syntax": "~~struck text~~",
+      "source": "https://github.github.com/gfm/#strikethrough-extension-",
+      "cells": [
+        {
+          "status": "no",
+          "note": "Not in the spec."
+        },
+        {
+          "status": "yes",
+          "note": "GFM extension; GitHub also accepts a single ~."
+        },
+        {
+          "status": "yes",
+          "note": "GLFM: ~~double tildes~~."
+        },
+        {
+          "status": "yes",
+          "note": "GFM-style ~~text~~."
+        },
+        {
+          "status": "yes",
+          "note": "~~text~~."
+        },
+        {
+          "status": "yes",
+          "note": "~text~ (single tilde) or the toolbar."
+        },
+        {
+          "status": "yes",
+          "note": "~~double tildes~~."
+        },
+        {
+          "status": "partial",
+          "note": "R Markdown (Pandoc strikeout): yes; not documented for Jupyter cells."
+        }
+      ]
+    },
+    {
+      "feature": "Underline",
+      "syntax": "<u>text</u> (HTML)",
+      "source": "https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax",
+      "cells": [
+        {
+          "status": "no",
+          "note": "No syntax; raw <u>/<ins> HTML is the only option."
+        },
+        {
+          "status": "partial",
+          "note": "No Markdown syntax; GitHub documents the <ins> tag."
+        },
+        {
+          "status": "no",
+          "note": "No documented underline syntax."
+        },
+        {
+          "status": "partial",
+          "note": "<u> HTML works; no Markdown syntax, and Markdown inside HTML is not processed."
+        },
+        {
+          "status": "yes",
+          "note": "__text__ (Discord extension)."
+        },
+        {
+          "status": "partial",
+          "note": "Toolbar only; no markup shortcut."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "partial",
+          "note": "No Markdown syntax; raw <u> passes through to HTML output."
+        }
+      ]
+    },
+    {
+      "feature": "Tables",
+      "syntax": "| A | B |\n| --- | --- |",
+      "source": "https://github.github.com/gfm/#tables-extension-",
+      "cells": [
+        {
+          "status": "no",
+          "note": "Not in the spec."
+        },
+        {
+          "status": "yes",
+          "note": "GFM tables extension with column alignment."
+        },
+        {
+          "status": "yes",
+          "note": "GLFM tables; paste from spreadsheets works."
+        },
+        {
+          "status": "yes",
+          "note": "Plus Live Preview table editing."
+        },
+        {
+          "status": "no",
+          "note": "No table syntax."
+        },
+        {
+          "status": "no",
+          "note": "No tables in messages."
+        },
+        {
+          "status": "yes",
+          "note": "Pipe tables; parsing quirks differ between old and new Reddit."
+        },
+        {
+          "status": "yes",
+          "note": "Jupyter renders GFM tables; R Markdown supports pipe tables."
+        }
+      ]
+    },
+    {
+      "feature": "Task lists",
+      "syntax": "- [x] done\n- [ ] todo",
+      "source": "https://github.github.com/gfm/#task-list-items-extension-",
+      "cells": [
+        {
+          "status": "no",
+          "note": "Not in the spec."
+        },
+        {
+          "status": "yes",
+          "note": "GFM task list extension."
+        },
+        {
+          "status": "yes",
+          "note": "Adds an inapplicable [~] state."
+        },
+        {
+          "status": "yes",
+          "note": "Any character inside the brackets marks a task complete."
+        },
+        {
+          "status": "no",
+          "note": "Renders as a plain list item."
+        },
+        {
+          "status": "no",
+          "note": "No Markdown syntax for tasks."
+        },
+        {
+          "status": "no",
+          "note": "Renders as a plain list item."
+        },
+        {
+          "status": "partial",
+          "note": "R Markdown (Pandoc task_lists): yes; not documented for Jupyter cells."
+        }
+      ]
+    },
+    {
+      "feature": "Footnotes",
+      "syntax": "Text.[^1]\n\n[^1]: The note.",
+      "source": "https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes",
+      "cells": [
+        {
+          "status": "no",
+          "note": "Not in the spec."
+        },
+        {
+          "status": "yes",
+          "note": "GitHub.com extension; not part of the GFM spec itself."
+        },
+        {
+          "status": "yes",
+          "note": "GLFM footnotes."
+        },
+        {
+          "status": "yes",
+          "note": "Plus inline ^[...] footnotes."
+        },
+        {
+          "status": "no",
+          "note": "Renders as literal [^1]."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "no",
+          "note": "Renders as literal [^1]."
+        },
+        {
+          "status": "partial",
+          "note": "R Markdown (Pandoc footnotes): yes; Jupyter cells do not render them."
+        }
+      ]
+    },
+    {
+      "feature": "Math (LaTeX)",
+      "syntax": "$x^2$",
+      "source": "https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions",
+      "cells": [
+        {
+          "status": "no",
+          "note": "Not in the spec."
+        },
+        {
+          "status": "yes",
+          "note": "MathJax on github.com; $ inline and $$ blocks."
+        },
+        {
+          "status": "yes",
+          "note": "KaTeX; $`...`$ inline and ```math blocks."
+        },
+        {
+          "status": "yes",
+          "note": "MathJax; $ inline and $$ blocks."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "no",
+          "note": "No native rendering."
+        },
+        {
+          "status": "yes",
+          "note": "MathJax in Jupyter cells; LaTeX math in R Markdown."
+        }
+      ]
+    },
+    {
+      "feature": "Mermaid / diagrams",
+      "syntax": "```mermaid\ngraph TD\n  A --> B\n```",
+      "source": "https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams",
+      "cells": [
+        {
+          "status": "no",
+          "note": "Renders as a plain code block."
+        },
+        {
+          "status": "yes",
+          "note": "Mermaid blocks render as diagrams on github.com."
+        },
+        {
+          "status": "yes",
+          "note": "```mermaid; PlantUML and Kroki also available."
+        },
+        {
+          "status": "yes",
+          "note": "Native Mermaid rendering in notes."
+        },
+        {
+          "status": "no",
+          "note": "Renders as a code block."
+        },
+        {
+          "status": "no",
+          "note": "Renders as a code block."
+        },
+        {
+          "status": "no",
+          "note": "Renders as a code block."
+        },
+        {
+          "status": "partial",
+          "note": "JupyterLab 4.1+ renders ```mermaid natively; R Markdown needs the DiagrammeR package."
+        }
+      ]
+    },
+    {
+      "feature": "Raw HTML",
+      "syntax": "<div>text</div>",
+      "source": "https://spec.commonmark.org/0.31.2/#raw-html",
+      "cells": [
+        {
+          "status": "yes",
+          "note": "HTML blocks and inline HTML are part of the spec."
+        },
+        {
+          "status": "partial",
+          "note": "Sanitized subset; scripts and some tags are stripped."
+        },
+        {
+          "status": "partial",
+          "note": "Sanitized subset (e.g. <details> and <br>)."
+        },
+        {
+          "status": "partial",
+          "note": "Renders HTML, but Markdown inside HTML is intentionally not processed."
+        },
+        {
+          "status": "no",
+          "note": "HTML renders as literal text."
+        },
+        {
+          "status": "no",
+          "note": "No HTML rendering."
+        },
+        {
+          "status": "no",
+          "note": "Tags render as literal text; only HTML entities work."
+        },
+        {
+          "status": "partial",
+          "note": "Jupyter renders raw HTML; R Markdown passes it to HTML output only."
+        }
+      ]
+    },
+    {
+      "feature": "Spoilers",
+      "syntax": "||hidden text||",
+      "source": "https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline",
+      "cells": [
+        {
+          "status": "no",
+          "note": "Not in the spec."
+        },
+        {
+          "status": "partial",
+          "note": "No spoiler syntax; <details> HTML gives collapsible sections."
+        },
+        {
+          "status": "partial",
+          "note": "No spoiler syntax; <details>/<summary> HTML."
+        },
+        {
+          "status": "no",
+          "note": "No spoiler syntax."
+        },
+        {
+          "status": "yes",
+          "note": "||text|| hides content until clicked."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "yes",
+          "note": ">!text!< syntax — different delimiters from Discord."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        }
+      ]
+    },
+    {
+      "feature": "Dynamic timestamps",
+      "syntax": "<t:1752840000:R>",
+      "source": "https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline",
+      "cells": [
+        {
+          "status": "no",
+          "note": "Not in the spec."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "yes",
+          "note": "<t:unix:format> renders in each viewer’s timezone; seven formats."
+        },
+        {
+          "status": "partial",
+          "note": "Via <!date^unix^text> in app/bot messages (Slack mrkdwn)."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        }
+      ]
+    },
+    {
+      "feature": "Callouts / alerts",
+      "syntax": "> [!note]\n> Content",
+      "source": "https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts",
+      "cells": [
+        {
+          "status": "no",
+          "note": "Renders as a plain blockquote."
+        },
+        {
+          "status": "yes",
+          "note": "Alerts: NOTE, TIP, IMPORTANT, WARNING, CAUTION."
+        },
+        {
+          "status": "yes",
+          "note": "GLFM alerts (note, tip, warning, caution, important)."
+        },
+        {
+          "status": "yes",
+          "note": "13 types with aliases, folding, and nesting."
+        },
+        {
+          "status": "no",
+          "note": "Renders as a plain blockquote."
+        },
+        {
+          "status": "no",
+          "note": "Renders as a plain quote."
+        },
+        {
+          "status": "no",
+          "note": "Renders as a plain blockquote."
+        },
+        {
+          "status": "no",
+          "note": "Quarto (R Markdown’s successor) adds callout blocks; classic R Markdown has none."
+        }
+      ]
+    },
+    {
+      "feature": "Wikilinks",
+      "syntax": "[[Page Name]]",
+      "source": "https://help.obsidian.md/links",
+      "cells": [
+        {
+          "status": "no",
+          "note": "Not in the spec."
+        },
+        {
+          "status": "partial",
+          "note": "[[links]] resolve in GitHub wiki pages only."
+        },
+        {
+          "status": "partial",
+          "note": "[[Page]] works in wiki pages; regular files and comments do not resolve it."
+        },
+        {
+          "status": "yes",
+          "note": "Vault-native; auto-updates when the target note is renamed."
+        },
+        {
+          "status": "no",
+          "note": "Renders as literal brackets."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "no",
+          "note": "Renders as literal brackets."
+        },
+        {
+          "status": "no",
+          "note": "Renders as literal brackets."
+        }
+      ]
+    },
+    {
+      "feature": "Highlight",
+      "syntax": "==highlighted text==",
+      "source": "https://help.obsidian.md/syntax",
+      "cells": [
+        {
+          "status": "no",
+          "note": "Not in the spec."
+        },
+        {
+          "status": "no",
+          "note": "Renders as literal ==."
+        },
+        {
+          "status": "no",
+          "note": "Renders as literal ==."
+        },
+        {
+          "status": "yes",
+          "note": "==text== marker-style highlight."
+        },
+        {
+          "status": "no",
+          "note": "Renders as literal ==."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "no",
+          "note": "Renders as literal ==."
+        },
+        {
+          "status": "no",
+          "note": "Pandoc’s ==mark== extension exists but is off by default."
+        }
+      ]
+    },
+    {
+      "feature": "Comments (hidden text)",
+      "syntax": "%%hidden%%",
+      "source": "https://help.obsidian.md/syntax#Comments",
+      "cells": [
+        {
+          "status": "partial",
+          "note": "Via <!-- --> HTML comments; hidden but kept in the output source."
+        },
+        {
+          "status": "yes",
+          "note": "GitHub documents hiding content with <!-- --> comments."
+        },
+        {
+          "status": "partial",
+          "note": "No dedicated syntax; <!-- --> HTML comments."
+        },
+        {
+          "status": "yes",
+          "note": "%%comment%% hides text in Reading view and on publish."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "no",
+          "note": "Not supported."
+        },
+        {
+          "status": "partial",
+          "note": "<!-- --> hidden in HTML output only."
+        }
+      ]
+    },
+    {
+      "feature": "Code blocks",
+      "syntax": "```js\ncode\n```",
+      "source": "https://spec.commonmark.org/0.31.2/#fenced-code-blocks",
+      "cells": [
+        {
+          "status": "yes",
+          "note": "Fenced and indented blocks."
+        },
+        {
+          "status": "yes",
+          "note": "Fenced, with syntax highlighting."
+        },
+        {
+          "status": "yes",
+          "note": "Fenced; 100+ highlight languages."
+        },
+        {
+          "status": "yes",
+          "note": "Fenced, with syntax highlighting."
+        },
+        {
+          "status": "yes",
+          "note": "``` with optional language."
+        },
+        {
+          "status": "yes",
+          "note": "``` or the toolbar code block."
+        },
+        {
+          "status": "partial",
+          "note": "Fenced blocks only on new Reddit; old Reddit supports indented blocks only."
+        },
+        {
+          "status": "yes",
+          "note": "Fenced blocks; R Markdown chunks also execute code."
+        }
+      ]
+    },
+    {
+      "feature": "Blockquotes",
+      "syntax": "> quoted text",
+      "source": "https://spec.commonmark.org/0.31.2/#block-quotes",
+      "cells": [
+        {
+          "status": "yes",
+          "note": "> at the start of a line."
+        },
+        {
+          "status": "yes",
+          "note": "> at the start of a line."
+        },
+        {
+          "status": "yes",
+          "note": "> at the start of a line."
+        },
+        {
+          "status": "yes",
+          "note": "> at the start of a line."
+        },
+        {
+          "status": "yes",
+          "note": "> for one line; >>> quotes the rest of the message."
+        },
+        {
+          "status": "yes",
+          "note": "> markup or the toolbar."
+        },
+        {
+          "status": "yes",
+          "note": "> at the start of a line."
+        },
+        {
+          "status": "yes",
+          "note": "> at the start of a line."
+        }
+      ]
+    },
+    {
+      "feature": "Images",
+      "syntax": "![alt text](image.jpg)",
+      "source": "https://spec.commonmark.org/0.31.2/#images",
+      "cells": [
+        {
+          "status": "yes",
+          "note": "![alt](url) with optional title."
+        },
+        {
+          "status": "yes",
+          "note": "![alt](url); relative paths and uploads supported."
+        },
+        {
+          "status": "yes",
+          "note": "![alt](url); uploads supported."
+        },
+        {
+          "status": "yes",
+          "note": "Plus ![[embeds]] for vault files."
+        },
+        {
+          "status": "no",
+          "note": "Attachments/embeds only; no Markdown image syntax."
+        },
+        {
+          "status": "no",
+          "note": "File uploads only; no Markdown image syntax."
+        },
+        {
+          "status": "partial",
+          "note": "No Markdown image syntax; the rich-text editor supports image uploads."
+        },
+        {
+          "status": "yes",
+          "note": "Standard syntax; Jupyter also supports attachment: references."
+        }
+      ]
+    },
+    {
+      "feature": "Links",
+      "syntax": "[text](https://example.com)",
+      "source": "https://spec.commonmark.org/0.31.2/#links",
+      "cells": [
+        {
+          "status": "yes",
+          "note": "Inline, reference, and autolinks."
+        },
+        {
+          "status": "yes",
+          "note": "Inline, reference, and autolinks."
+        },
+        {
+          "status": "yes",
+          "note": "Inline, reference, and autolinks."
+        },
+        {
+          "status": "yes",
+          "note": "Inline links; [[wikilinks]] are the default."
+        },
+        {
+          "status": "yes",
+          "note": "Masked links [text](url) in user messages."
+        },
+        {
+          "status": "partial",
+          "note": "Composer toolbar or paste-to-link; mrkdwn uses <url|text>."
+        },
+        {
+          "status": "yes",
+          "note": "Inline, reference, and autolinks."
+        },
+        {
+          "status": "yes",
+          "note": "Inline links in both."
+        }
+      ]
+    }
+  ]
+}

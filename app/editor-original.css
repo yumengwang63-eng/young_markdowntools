@@ -1,0 +1,96 @@
+.originaleditor{display:flex;flex-direction:column;max-width:1272px;padding:0 28px 60px}
+.originaleditor>h1{order:0;text-align:center;font:700 32px/1.3 Arial,sans-serif;margin:34px 0 12px;letter-spacing:-.6px}
+.originaleditor>p:first-of-type{order:1;text-align:center;max-width:780px;align-self:center;color:#737787;font-size:16px;line-height:1.6;margin:0 0 26px}
+.originaleditor>.formattoolbar{order:2;margin:0;border:1px solid #e5e5ed;border-radius:13px 13px 0 0;background:#f7f7fa;min-height:44px;padding:4px 8px;gap:3px;align-items:center;flex-wrap:nowrap}
+.originaleditor .formattoolbar>select{height:33px;border:1px solid #e5e5ed;background:white;border-radius:7px;padding:0 10px;color:#656a79;width:101px;font-size:13px}
+.originaleditor .formattoolbar button{border:0;border-radius:5px;background:transparent;padding:7px;color:#696e7c;display:flex;align-items:center;justify-content:center;height:32px}
+.originaleditor .formattoolbar button:hover{background:#eae7fa}
+.originaleditor .formattoolbar button.active{background:#e4dffb;color:#7158ec}
+.editorrighttools{margin-left:auto;display:flex;gap:3px}
+.editorrighttools button:disabled{opacity:.32}
+.originaleditor>.documentlayout{order:4;display:block;border:1px solid #e5e5ed;border-top:0;min-height:500px;background:white}
+.originaleditor .documentoutline{display:none}
+.originaleditor .documentlayout.hasoutline{display:grid;grid-template-columns:165px 1fr}
+.originaleditor .hasoutline .documentoutline{display:block;padding:12px;border-right:1px solid #eee}
+.originaleditor .documentlayout>.workspace{gap:0;grid-template-columns:1fr 1fr;height:500px}
+.originaleditor .documentlayout .panel{border:0;border-radius:0;overflow:hidden}
+.originaleditor .documentsource{border-right:1px solid #eeeeF3!important}
+.originaleditor textarea{height:100%;min-height:0;resize:none;padding:20px 16px;font:14px/1.7 Consolas,monospace;color:#454955;outline-offset:-3px}
+.originaleditor textarea::placeholder{font:14px Arial,sans-serif;color:#8b909b}
+.originaleditor .documentrender .preview{height:500px;max-height:500px;min-height:0;padding:24px}
+.originaleditor .documentrender .prose{font-size:15px;color:#292d38}
+.originaleditor .documentrender .prose h1{color:#20232c}
+.originaleditor .documentlayout.nopreview>.workspace{grid-template-columns:1fr}
+.originaleditor .nopreview .documentrender{display:none}
+.originaleditor>.documentstatus{order:5;margin:0;padding:8px 12px 3px;border-inline:1px solid #e5e5ed;background:#f7f7fa;color:#858b9a;font-size:11px}
+.originaleditor>.advancedbar{order:6;border:1px solid #e5e5ed;border-top:0;margin:0;padding:6px 12px 12px;gap:8px;background:#f7f7fa;border-radius:0 0 12px 12px}
+.originaleditor>.advancedbar .secondary,.originaleditor>.advancedbar .quiet{padding:8px 12px;font-size:13px;color:#5e6473;gap:7px;border:1px solid #e4e5ec;background:white;border-radius:7px}
+.originaleditor>.advancedbar label input[type=file]{display:none}
+.originaleditor>.advancedbar .editorreadingstyle{display:none}
+.originaleditor>.advancedbar .quiet{order:4}
+.editorexport{position:relative;order:5}
+.editorexport summary{display:flex;gap:8px;align-items:center;cursor:pointer;list-style:none;background:#6851ef;color:white;padding:9px 12px;border-radius:7px;font-size:13px}
+.editorexport>div{position:absolute;z-index:30;bottom:42px;right:0;background:white;padding:8px;border:1px solid #ddd;border-radius:8px;min-width:160px;display:grid;gap:6px}
+.originaleditor>.notice{order:7;margin-top:20px;font-size:12px}
+.originaleditor>.toolhelp{order:8;width:100%;margin-top:28px}
+.originaleditor>.editorfind{order:3;padding:8px;border-inline:1px solid #ddd;display:flex;gap:8px;background:#f7f7fa}
+.editorfind input{border:1px solid #ddd;border-radius:4px;padding:6px}
+.editorfind button{background:white;border:1px solid #ddd;border-radius:4px}
+.editorfullscreen{position:fixed;inset:0;z-index:100;background:white;overflow:auto;max-width:none}
+.editorfullscreen .documentlayout>.workspace,.editorfullscreen .documentrender .preview{height:calc(100vh - 260px);max-height:none}
+@media(max-width:700px){.originaleditor{padding:0 16px 35px}
+.originaleditor>h1{font-size:27px;margin-top:28px}
+.originaleditor>p:first-of-type{font-size:14px;margin-bottom:24px}
+.originaleditor>.formattoolbar{flex-wrap:wrap;gap:2px}
+.editorrighttools{margin-left:0}
+.originaleditor .formattoolbar button{padding:6px}
+.originaleditor .documentlayout>.workspace{height:auto;grid-template-columns:1fr}
+.originaleditor .documentsource{height:320px;border-right:0!important;border-bottom:1px solid #eee!important}
+.originaleditor .documentrender .preview{height:320px;max-height:320px}
+.originaleditor .documentlayout.hasoutline{grid-template-columns:1fr}
+.originaleditor .hasoutline .documentoutline{display:flex;border-bottom:1px solid #eee}
+.originaleditor>.documentstatus{font-size:9px;line-height:1.8}
+.originaleditor>.advancedbar{flex-wrap:wrap}
+.originaleditor>.advancedbar .secondary,.originaleditor>.advancedbar .quiet{font-size:11px;padding:7px}
+.originaleditor .editorfind{flex-wrap:wrap}
+}
+
+
+.originaleditor .formattoolbar>button[aria-label="Bold"]{order:1}
+.originaleditor .formattoolbar>button[aria-label="Italic"]{order:2}
+.originaleditor .formattoolbar>button[aria-label="Strikethrough"]{order:3}
+.originaleditor .formattoolbar>button[aria-label="Link"]{order:4;margin-left:8px}
+.originaleditor .formattoolbar>button[aria-label="Image"]{order:5}
+.originaleditor .formattoolbar>button[aria-label="List"]{order:6;margin-left:8px}
+.originaleditor .formattoolbar>button[aria-label="Numbered list"]{order:7}
+.originaleditor .formattoolbar>button[aria-label="Task"]{order:8}
+.originaleditor .formattoolbar>button[aria-label="Quote"]{order:9}
+.originaleditor .formattoolbar>button[aria-label="Callout"]{order:10}
+.originaleditor .formattoolbar>button[aria-label="Inline code"]{order:11;margin-left:8px}
+.originaleditor .formattoolbar>button[aria-label="Code block"]{order:12}
+.originaleditor .formattoolbar>button[aria-label="Table"]{order:13}
+.originaleditor .formattoolbar>button[aria-label="Horizontal rule"]{order:14}
+.originaleditor .editorrighttools{order:20}
+.originaleditor .formattoolbar button{width:32px;flex-shrink:0}
+.originaleditor .documentsource{position:relative}
+.sourcehighlight{position:absolute;inset:0;margin:0!important;border:0!important;padding:20px 16px!important;font:14px/1.7 Consolas,monospace!important;white-space:pre-wrap;overflow:hidden;overflow-wrap:break-word;pointer-events:none;color:#454955;background:transparent!important}
+.originaleditor .documentsource textarea{position:relative;color:transparent;caret-color:#454955;background:transparent;z-index:1;white-space:pre-wrap;overflow-wrap:break-word}
+.sourceheading{color:#7152ca;font-weight:600}
+.sourcestrong{color:#8b4c8c}
+.sourcecode{color:#a66b35}
+.sourcelink{color:#3574ae}
+.sourcemath{color:#247e7d}
+@media(max-width:700px){.originaleditor .formattoolbar>button[aria-label="Link"],.originaleditor .formattoolbar>button[aria-label="List"],.originaleditor .formattoolbar>button[aria-label="Inline code"]{margin-left:0}
+}
+
+
+.originaleditor>h1{margin-top:24px}
+.originaleditor>.advancedbar .editorexport .quiet{order:initial}
+
+.sourcehit{color:inherit;background:#ffe584;border-radius:2px;box-shadow:0 0 0 1px #e8c84f}
+
+.emojipicker{position:absolute;z-index:12;left:16px;bottom:16px;min-width:190px;max-height:230px;overflow:auto;padding:6px;background:white;border:1px solid #dcdde5;border-radius:8px;box-shadow:0 8px 24px #27233b26}
+.emojipicker button{display:flex;width:100%;gap:8px;border:0;border-radius:5px;padding:6px 8px;background:white;color:#343746;text-align:left}
+.emojipicker button[aria-selected="true"],.emojipicker button:hover{background:#eeeaff;color:#5d45d5}
+.emojipicker span{width:22px;text-align:center}
+

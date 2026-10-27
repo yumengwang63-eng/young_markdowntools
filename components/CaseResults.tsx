@@ -1,0 +1,4 @@
+'use client';
+import {useState} from 'react';
+import type {CaseForms} from '../lib/cases';
+export default function CaseResults({forms,output}:{forms:CaseForms;output:string}){const[status,setStatus]=useState('');return <section className="case-results" aria-label="Auxiliary case results"><h2>Other formats</h2><div className="case-result-grid">{Object.entries(forms).filter(([,value])=>value!==output).map(([name,value])=><article className="case-result" key={name}><div><strong>{name}</strong><button className="quiet" aria-label={'Copy '+name} onClick={async()=>{try{await navigator.clipboard.writeText(value);setStatus(name+' copied.')}catch{setStatus('Copy unavailable. Select the result text.')}}}>Copy</button></div><pre>{value||'—'}</pre></article>)}</div>{status&&<p role="status">{status}</p>}</section>}
